@@ -1,0 +1,14 @@
+{"time":"2025-06-04T15:09:52.364245976+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/home/gentlebear/Mres/DIAYN-PyTorch/wandb/offline-run-20250604_150952-cvpi1ead/logs/debug-core.log"}
+{"time":"2025-06-04T15:09:53.677086061+01:00","level":"INFO","msg":"created new stream","id":"cvpi1ead"}
+{"time":"2025-06-04T15:09:53.677137849+01:00","level":"INFO","msg":"stream: started","id":"cvpi1ead"}
+{"time":"2025-06-04T15:09:53.677150072+01:00","level":"INFO","msg":"handler: started","stream_id":"cvpi1ead"}
+{"time":"2025-06-04T15:09:53.677188685+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"cvpi1ead"}
+{"time":"2025-06-04T15:09:53.677195809+01:00","level":"INFO","msg":"sender: started","stream_id":"cvpi1ead"}
+{"time":"2025-06-04T15:09:53.680877231+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-04T15:10:14.270036441+01:00","level":"INFO","msg":"stream: closing","id":"cvpi1ead"}
+{"time":"2025-06-04T15:10:14.270061248+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-04T15:10:14.270483178+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-04T15:10:14.270533694+01:00","level":"INFO","msg":"handler: closed","stream_id":"cvpi1ead"}
+{"time":"2025-06-04T15:10:14.270541869+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"cvpi1ead"}
+{"time":"2025-06-04T15:10:14.270555655+01:00","level":"INFO","msg":"sender: closed","stream_id":"cvpi1ead"}
+{"time":"2025-06-04T15:10:14.270592615+01:00","level":"INFO","msg":"stream: closed","id":"cvpi1ead"}

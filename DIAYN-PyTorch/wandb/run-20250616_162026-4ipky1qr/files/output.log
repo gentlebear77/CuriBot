@@ -1,0 +1,99 @@
+Demo data loaded with 94 length.
+params: {'n_skills': 10, 'mem_size': 1000000, 'interval': 100, 'do_train': True, 'train_from_scratch': True, 'seed': 42, 'batch_size': 256, 'n_hiddens': 256, 'lr': 0.001, 'reward_scale': 0.01, 'MI_scale': 1000, 'alpha': 0.1, 'gamma': 0.99, 'tau': 0.005, 'max_n_episodes': 100, 'action_bounds': [-0.005, 0.005], 'epoch_length': 1, 'train_interval': 1, 'n_states': 9, 'n_actions': 8, 'n_object_states': 6, 'episode_length': 94}
+Training from scratch.
+  0%|                                                                                             | 0/100 [00:00<?, ?it/s]/home/gentlebear/Mres/DIAYN-PyTorch/Brain/agent.py:79: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:245.)
+  action = torch.Tensor([action]).to("cpu")
+Episode 1, logq_z: -6.338167667388916, logmi: 0.001083865761756897
+ 32%|██████████████████████████▉                                                         | 32/100 [07:44<15:58, 14.09s/it]
+Episode 2, logq_z: -5.605981826782227, logmi: 0.0011121490970253944
+Episode 3, logq_z: -3.646023988723755, logmi: 0.0009411420905962586
+Episode 4, logq_z: -2.4349589347839355, logmi: 0.0007200226536951959
+Episode 5, logq_z: -2.492845058441162, logmi: 0.0005987253971397877
+Episode 6, logq_z: -3.0628113746643066, logmi: 0.0005071726045571268
+Episode 7, logq_z: -3.3803226947784424, logmi: 0.0004058953491039574
+Episode 8, logq_z: -3.1742169857025146, logmi: 0.0003559912438504398
+Episode 9, logq_z: -3.134554624557495, logmi: 0.00028225703863427043
+Episode 10, logq_z: -2.777176856994629, logmi: 0.0003145578666590154
+Episode 11, logq_z: -3.0130207538604736, logmi: 0.00027541606687009335
+Episode 12, logq_z: -2.9657299518585205, logmi: 0.00038205867167562246
+Episode 13, logq_z: -2.547541618347168, logmi: 0.0003301479737274349
+Episode 14, logq_z: -2.574575901031494, logmi: 0.0002891810145229101
+Episode 15, logq_z: -2.350125312805176, logmi: 0.0002867449074983597
+Episode 16, logq_z: -2.70908260345459, logmi: 0.0002422475954517722
+Episode 17, logq_z: -2.743781328201294, logmi: 0.0002026993315666914
+Episode 18, logq_z: -3.294628620147705, logmi: 0.00017349165864288807
+Episode 19, logq_z: -3.191692352294922, logmi: 0.00013143906835466623
+Episode 20, logq_z: -2.8720598220825195, logmi: 0.00011935154907405376
+Episode 21, logq_z: -2.9887120723724365, logmi: 9.919167496263981e-05
+Episode 22, logq_z: -3.2212741374969482, logmi: 9.134737774729729e-05
+Episode 23, logq_z: -3.197059154510498, logmi: 7.887766696512699e-05
+Episode 24, logq_z: -2.868389368057251, logmi: 7.814774289727211e-05
+Episode 25, logq_z: -2.5607261657714844, logmi: 7.65644945204258e-05
+Episode 26, logq_z: -2.4641196727752686, logmi: 6.570643745362759e-05
+Episode 27, logq_z: -2.4838740825653076, logmi: 6.117881275713444e-05
+Episode 28, logq_z: -2.405759572982788, logmi: 6.0041435062885284e-05
+Episode 29, logq_z: -2.2662339210510254, logmi: 5.6894030421972275e-05
+Episode 30, logq_z: -2.2982499599456787, logmi: 5.1554059609770775e-05
+Episode 31, logq_z: -2.2602896690368652, logmi: 5.0690025091171265e-05
+Episode 32, logq_z: -2.2653939723968506, logmi: 4.130927845835686e-05
+Episode 33, logq_z: -2.307821750640869, logmi: 3.664870746433735e-05
+Episode 34, logq_z: -2.2709953784942627, logmi: 3.452063538134098e-05
+Episode 35, logq_z: -2.3051018714904785, logmi: 2.645561471581459e-05
+Episode 36, logq_z: -2.2452635765075684, logmi: 2.556992694735527e-05
+Episode 37, logq_z: -2.2650177478790283, logmi: 1.9014114513993263e-05
+Episode 38, logq_z: -2.1816232204437256, logmi: 1.7214100807905197e-05
+Episode 39, logq_z: -2.1598052978515625, logmi: 1.0750489309430122e-05
+Episode 40, logq_z: -2.0885660648345947, logmi: 1.3235490769147873e-05
+Episode 41, logq_z: -2.1331183910369873, logmi: 1.3472512364387512e-05
+Episode 42, logq_z: -2.0740928649902344, logmi: 9.758863598108292e-06
+Episode 43, logq_z: -2.166736364364624, logmi: 2.1850690245628357e-05
+Episode 44, logq_z: -2.1763081550598145, logmi: 2.3500993847846985e-05
+Episode 45, logq_z: -2.115159511566162, logmi: 2.1640677005052567e-05
+Episode 46, logq_z: -2.255931854248047, logmi: 1.615774817764759e-05
+Episode 47, logq_z: -2.189408540725708, logmi: 2.039596438407898e-05
+Episode 48, logq_z: -2.2430615425109863, logmi: 2.835993655025959e-05
+Episode 49, logq_z: -2.1057369709014893, logmi: 1.6608508303761482e-05
+Episode 50, logq_z: -2.1712646484375, logmi: 1.102173700928688e-05
+Episode 51, logq_z: -2.2083446979522705, logmi: 1.1986121535301208e-05
+Episode 52, logq_z: -2.127434253692627, logmi: 1.1956319212913513e-05
+Episode 53, logq_z: -2.176527261734009, logmi: 1.1658994480967522e-05
+Episode 54, logq_z: -2.110714912414551, logmi: 1.1435244232416153e-05
+Episode 55, logq_z: -2.184573173522949, logmi: 1.1889729648828506e-05
+Episode 56, logq_z: -2.147104263305664, logmi: 1.0945834219455719e-05
+Episode 57, logq_z: -2.1634304523468018, logmi: 2.0703300833702087e-06
+Episode 58, logq_z: -2.1301891803741455, logmi: 3.6589335650205612e-06
+Episode 59, logq_z: -2.179516077041626, logmi: 1.2625474482774734e-05
+Episode 60, logq_z: -2.115804433822632, logmi: 7.131369784474373e-06
+Episode 61, logq_z: -2.212738037109375, logmi: 6.177229806780815e-06
+Episode 62, logq_z: -2.164668321609497, logmi: 9.151408448815346e-06
+Episode 63, logq_z: -2.279489278793335, logmi: 7.367925718426704e-06
+Episode 64, logq_z: -2.1727945804595947, logmi: 2.7224887162446976e-06
+Episode 65, logq_z: -2.1856343746185303, logmi: 5.150213837623596e-06
+Episode 66, logq_z: -2.1779122352600098, logmi: 3.582797944545746e-06
+Episode 67, logq_z: -2.176088809967041, logmi: 1.975102350115776e-06
+Episode 68, logq_z: -2.131704330444336, logmi: 5.046604201197624e-06
+Episode 69, logq_z: -2.1251752376556396, logmi: 6.754184141755104e-06
+Episode 70, logq_z: -2.144662380218506, logmi: 4.448927938938141e-06
+Episode 71, logq_z: -2.173177719116211, logmi: 6.081070750951767e-06
+Episode 72, logq_z: -2.169586420059204, logmi: 4.229368641972542e-06
+Episode 73, logq_z: -2.226195812225342, logmi: 4.943925887346268e-06
+Episode 74, logq_z: -2.143723487854004, logmi: 4.481524229049683e-06
+Episode 75, logq_z: -2.181112051010132, logmi: 3.3364631235599518e-06
+Episode 76, logq_z: -2.140561103820801, logmi: 5.718553438782692e-06
+Episode 77, logq_z: -2.1564574241638184, logmi: 1.1692289263010025e-05
+Episode 78, logq_z: -2.167233467102051, logmi: 9.665265679359436e-06
+Episode 79, logq_z: -2.1016175746917725, logmi: 9.037787094712257e-06
+Episode 80, logq_z: -2.165017604827881, logmi: 1.4281133189797401e-05
+Episode 81, logq_z: -2.234809160232544, logmi: 9.309733286499977e-06
+Episode 82, logq_z: -2.2047414779663086, logmi: 4.949048161506653e-06
+Traceback (most recent call last):
+  File "/home/gentlebear/Mres/DIAYN-PyTorch/main.py", line 194, in <module>
+    next_state, _, done, extra = env.step(action)
+  File "/home/gentlebear/Mres/dinobot/dinobot/env/cube.py", line 140, in step
+    image_feature, extra = self.get_observations()
+  File "/home/gentlebear/Mres/dinobot/dinobot/env/cube.py", line 52, in get_observations
+    joint_state = torch.tensor(joint_state, dtype=torch.float32).to(self.device)
+RuntimeError: CUDA error: unspecified launch failure
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.

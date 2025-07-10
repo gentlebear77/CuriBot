@@ -1,0 +1,16 @@
+{"time":"2025-05-22T16:11:42.363873252+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/home/gentlebear/Mres/DIAYN-PyTorch/wandb/run-20250522_161142-tkghnw2u/logs/debug-core.log"}
+{"time":"2025-05-22T16:11:42.467954291+01:00","level":"INFO","msg":"created new stream","id":"tkghnw2u"}
+{"time":"2025-05-22T16:11:42.467982093+01:00","level":"INFO","msg":"stream: started","id":"tkghnw2u"}
+{"time":"2025-05-22T16:11:42.468010006+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"tkghnw2u"}
+{"time":"2025-05-22T16:11:42.468025756+01:00","level":"INFO","msg":"sender: started","stream_id":"tkghnw2u"}
+{"time":"2025-05-22T16:11:42.468085539+01:00","level":"INFO","msg":"handler: started","stream_id":"tkghnw2u"}
+{"time":"2025-05-22T16:11:42.731911647+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-22T16:51:29.369815011+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-22T16:51:29.370163222+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-22T16:51:30.371022712+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading checkpoints/joint_policy_100_2025-05-22-16-31-37.pt","runtime_seconds":0.491039724,"progress":"287.1KB/287.1KB"},{"desc":"uploading checkpoints/joint_policy_200_2025-05-22-16-51-29.pt","runtime_seconds":0.117420884,"progress":"287.1KB/287.1KB"}],"total_operations":2}}
+{"time":"2025-05-22T16:51:30.906388445+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-22T16:51:32.404195509+01:00","level":"INFO","msg":"stream: closing","id":"tkghnw2u"}
+{"time":"2025-05-22T16:51:32.404229024+01:00","level":"INFO","msg":"handler: closed","stream_id":"tkghnw2u"}
+{"time":"2025-05-22T16:51:32.404240506+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"tkghnw2u"}
+{"time":"2025-05-22T16:51:32.404262178+01:00","level":"INFO","msg":"sender: closed","stream_id":"tkghnw2u"}
+{"time":"2025-05-22T16:51:32.404331501+01:00","level":"INFO","msg":"stream: closed","id":"tkghnw2u"}

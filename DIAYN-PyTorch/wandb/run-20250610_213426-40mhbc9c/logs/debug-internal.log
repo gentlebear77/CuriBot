@@ -1,0 +1,16 @@
+{"time":"2025-06-10T21:34:26.613740665+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/home/gentlebear/Mres/DIAYN-PyTorch/wandb/run-20250610_213426-40mhbc9c/logs/debug-core.log"}
+{"time":"2025-06-10T21:34:27.924440548+01:00","level":"INFO","msg":"created new stream","id":"40mhbc9c"}
+{"time":"2025-06-10T21:34:27.924497606+01:00","level":"INFO","msg":"stream: started","id":"40mhbc9c"}
+{"time":"2025-06-10T21:34:27.92452056+01:00","level":"INFO","msg":"handler: started","stream_id":"40mhbc9c"}
+{"time":"2025-06-10T21:34:27.924575223+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"40mhbc9c"}
+{"time":"2025-06-10T21:34:27.924591965+01:00","level":"INFO","msg":"sender: started","stream_id":"40mhbc9c"}
+{"time":"2025-06-10T21:34:28.195418667+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-11T04:03:43.128387797+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-11T04:03:43.128779511+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-11T04:03:44.128825219+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading checkpoints/joint_policy_1500_2025-06-11-02-26-25.pt","runtime_seconds":0.108249185,"progress":"48.0KB/296.1KB"},{"desc":"uploading checkpoints/joint_policy_1600_2025-06-11-02-45-53.pt","runtime_seconds":0.10821498,"progress":"96.0KB/296.1KB"},{"desc":"uploading checkpoints/joint_policy_1100_2025-06-11-01-08-39.pt","runtime_seconds":0.108206064,"progress":"272.0KB/296.1KB"},{"desc":"uploading checkpoints/joint_policy_400_2025-06-10-22-52-34.pt","runtime_seconds":0.10819359,"progress":"80.0KB/296.1KB"},{"desc":"uploading checkpoints/joint_policy_600_2025-06-10-23-31-20.pt","runtime_seconds":0.108175045,"progress":"288.0KB/296.1KB"},{"desc":"uploading checkpoints/joint_policy_1000_2025-06-11-00-49-11.pt","runtime_seconds":0.108167621,"progress":"128.0KB/296.1KB"},{"desc":"uploading checkpoints/joint_policy_1300_2025-06-11-01-47-31.pt","runtime_seconds":0.108159816,"progress":"48.0KB/296.1KB"},{"desc":"uploading checkpoints/joint_policy_1400_2025-06-11-02-06-58.pt","runtime_seconds":0.10815165,"progress":"32.0KB/296.1KB"},{"desc":"uploading checkpoints/joint_policy_1800_2025-06-11-03-24-46.pt","runtime_seconds":0.108144046,"progress":"32.0KB/296.1KB"},{"desc":"uploading checkpoints/joint_policy_700_2025-06-10-23-50-45.pt","runtime_seconds":0.108134828,"progress":"16.0KB/296.1KB"}],"total_operations":20}}
+{"time":"2025-06-11T04:03:44.981566554+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-11T04:03:46.150346978+01:00","level":"INFO","msg":"stream: closing","id":"40mhbc9c"}
+{"time":"2025-06-11T04:03:46.150371004+01:00","level":"INFO","msg":"handler: closed","stream_id":"40mhbc9c"}
+{"time":"2025-06-11T04:03:46.150384199+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"40mhbc9c"}
+{"time":"2025-06-11T04:03:46.150414988+01:00","level":"INFO","msg":"sender: closed","stream_id":"40mhbc9c"}
+{"time":"2025-06-11T04:03:46.150464001+01:00","level":"INFO","msg":"stream: closed","id":"40mhbc9c"}

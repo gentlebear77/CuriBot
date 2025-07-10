@@ -1,0 +1,14 @@
+{"time":"2025-06-04T15:17:58.450502776+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/home/gentlebear/Mres/DIAYN-PyTorch/wandb/offline-run-20250604_151758-mqm56m1w/logs/debug-core.log"}
+{"time":"2025-06-04T15:17:59.761055914+01:00","level":"INFO","msg":"created new stream","id":"mqm56m1w"}
+{"time":"2025-06-04T15:17:59.761074329+01:00","level":"INFO","msg":"stream: started","id":"mqm56m1w"}
+{"time":"2025-06-04T15:17:59.761100348+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"mqm56m1w"}
+{"time":"2025-06-04T15:17:59.761129103+01:00","level":"INFO","msg":"sender: started","stream_id":"mqm56m1w"}
+{"time":"2025-06-04T15:17:59.761140564+01:00","level":"INFO","msg":"handler: started","stream_id":"mqm56m1w"}
+{"time":"2025-06-04T15:17:59.76345302+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-04T15:18:20.378548313+01:00","level":"INFO","msg":"stream: closing","id":"mqm56m1w"}
+{"time":"2025-06-04T15:18:20.37857325+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-04T15:18:20.378976485+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-04T15:18:20.379016621+01:00","level":"INFO","msg":"handler: closed","stream_id":"mqm56m1w"}
+{"time":"2025-06-04T15:18:20.379024185+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"mqm56m1w"}
+{"time":"2025-06-04T15:18:20.379045416+01:00","level":"INFO","msg":"sender: closed","stream_id":"mqm56m1w"}
+{"time":"2025-06-04T15:18:20.379119446+01:00","level":"INFO","msg":"stream: closed","id":"mqm56m1w"}

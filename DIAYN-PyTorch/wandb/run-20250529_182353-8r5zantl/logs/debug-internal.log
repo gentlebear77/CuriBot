@@ -1,0 +1,16 @@
+{"time":"2025-05-29T18:23:53.401929578+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/home/gentlebear/Mres/DIAYN-PyTorch/wandb/run-20250529_182353-8r5zantl/logs/debug-core.log"}
+{"time":"2025-05-29T18:23:53.506010031+01:00","level":"INFO","msg":"created new stream","id":"8r5zantl"}
+{"time":"2025-05-29T18:23:53.50604612+01:00","level":"INFO","msg":"stream: started","id":"8r5zantl"}
+{"time":"2025-05-29T18:23:53.506050198+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"8r5zantl"}
+{"time":"2025-05-29T18:23:53.506070326+01:00","level":"INFO","msg":"sender: started","stream_id":"8r5zantl"}
+{"time":"2025-05-29T18:23:53.506065277+01:00","level":"INFO","msg":"handler: started","stream_id":"8r5zantl"}
+{"time":"2025-05-29T18:23:53.736022361+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-29T18:53:05.152586283+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-29T18:53:05.152944386+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-29T18:53:06.153926207+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading checkpoints/joint_policy_100_2025-05-29-18-38-18.pt","runtime_seconds":0.474820897,"progress":"287.0KB/287.0KB"},{"desc":"uploading checkpoints/joint_policy_200_2025-05-29-18-53-05.pt","runtime_seconds":0.204271962,"progress":"287.0KB/287.0KB"}],"total_operations":2}}
+{"time":"2025-05-29T18:53:06.609734627+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-29T18:53:07.793004629+01:00","level":"INFO","msg":"stream: closing","id":"8r5zantl"}
+{"time":"2025-05-29T18:53:07.793029246+01:00","level":"INFO","msg":"handler: closed","stream_id":"8r5zantl"}
+{"time":"2025-05-29T18:53:07.7930417+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"8r5zantl"}
+{"time":"2025-05-29T18:53:07.793064443+01:00","level":"INFO","msg":"sender: closed","stream_id":"8r5zantl"}
+{"time":"2025-05-29T18:53:07.793132563+01:00","level":"INFO","msg":"stream: closed","id":"8r5zantl"}

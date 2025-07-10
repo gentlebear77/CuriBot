@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/gentlebear/Mres/DIAYN-PyTorch/main.py", line 109, in <module>
+    env = CubeEnv(render=False, Test_env=True)
+  File "/home/gentlebear/Mres/dinobot/dinobot/env/cube.py", line 17, in __init__
+    super().__init__(render, Test_env)
+  File "/home/gentlebear/Mres/dinobot/dinobot/env/base.py", line 39, in __init__
+    self.setup_env()
+  File "/home/gentlebear/Mres/dinobot/dinobot/env/base.py", line 105, in setup_env
+    self.object_id = self.load_urdf_object("/home/gentlebear/Mres/dinobot/assets/pybullet_object_models/ycb_objects/YcbScissors/model.urdf", position=(0.5, 0.1, 0.1), globalScale=1)
+  File "/home/gentlebear/Mres/dinobot/dinobot/env/base.py", line 123, in load_urdf_object
+    object_id = p.loadURDF(urdf_path, basePosition=position, baseOrientation=orientation, globalScaling=globalScale)
+KeyboardInterrupt

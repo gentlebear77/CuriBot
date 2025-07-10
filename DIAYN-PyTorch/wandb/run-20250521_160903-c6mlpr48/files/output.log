@@ -1,0 +1,1203 @@
+Demo data loaded with 94 length.
+params: {'n_skills': 1, 'mem_size': 1000000, 'interval': 100, 'do_train': True, 'train_from_scratch': True, 'seed': 42, 'batch_size': 64, 'n_hiddens': 256, 'lr': 0.001, 'reward_scale': 0.01, 'MI_scale': 0.1, 'alpha': 0.1, 'gamma': 0.99, 'tau': 0.005, 'max_n_episodes': 1000, 'action_bounds': [-0.005, 0.005], 'epoch_length': 10, 'n_states': 9, 'n_actions': 8, 'n_object_states': 6}
+Training from scratch.
+  0%|                                                                                            | 0/1000 [00:00<?, ?it/s]/home/gentlebear/Mres/DIAYN-PyTorch/Brain/agent.py:74: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:245.)
+  action = torch.Tensor([action]).to("cpu")
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 1, logq_z: 0.0, logmi: -2.7939677238464355e-09
+  0%|▏                                                                                 | 3/1000 [00:35<3:16:52, 11.85s/it]
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 2, logq_z: 0.0, logmi: 2.7939677238464355e-09
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 3, logq_z: 0.0, logmi: -3.006681799888611e-05
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 4, logq_z: 0.0, logmi: 7.450580596923828e-09
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 5, logq_z: 0.0, logmi: 1.210719347000122e-08
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 6, logq_z: 0.0, logmi: 2.6852823793888092e-05
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 7, logq_z: 0.0, logmi: -0.006734747439622879
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 8, logq_z: 0.0, logmi: 1.862645149230957e-09
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 9, logq_z: 0.0, logmi: 0.00029636919498443604
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 10, logq_z: 0.0, logmi: 9.03429463505745e-05
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 11, logq_z: 0.0, logmi: -0.015432197600603104
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 12, logq_z: 0.0, logmi: -0.0002276729792356491
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 13, logq_z: 0.0, logmi: -3.725290298461914e-09
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 14, logq_z: 0.0, logmi: -0.03876901790499687
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 15, logq_z: 0.0, logmi: 0.0002883709967136383
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 16, logq_z: 0.0, logmi: 0.0011192411184310913
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 17, logq_z: 0.0, logmi: 1.862645149230957e-09
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 18, logq_z: 0.0, logmi: -0.055339355021715164
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 19, logq_z: 0.0, logmi: 5.122274160385132e-09
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 20, logq_z: 0.0, logmi: 0.00019082427024841309
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 21, logq_z: 0.0, logmi: 0.0002683773636817932
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 22, logq_z: 0.0, logmi: 9.313225746154785e-09
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 23, logq_z: 0.0, logmi: 1.1175870895385742e-08
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 24, logq_z: 0.0, logmi: 8.041225373744965e-05
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 25, logq_z: 0.0, logmi: -0.0006258748471736908
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 26, logq_z: 0.0, logmi: 9.313225746154785e-09
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 27, logq_z: 0.0, logmi: 0.0
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 28, logq_z: 0.0, logmi: 1.5832483768463135e-08
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 29, logq_z: 0.0, logmi: 0.0004504956305027008
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 30, logq_z: 0.0, logmi: 0.0018508881330490112
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 31, logq_z: 0.0, logmi: 1.1175870895385742e-08
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 32, logq_z: 0.0, logmi: -0.04944293573498726
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 33, logq_z: 0.0, logmi: 0.0003593107685446739
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 34, logq_z: 0.0, logmi: 7.450580596923828e-09
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 35, logq_z: 0.0, logmi: 0.0001095551997423172
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 36, logq_z: 0.0, logmi: 7.450580596923828e-09
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 37, logq_z: 0.0, logmi: 7.450580596923828e-09
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 38, logq_z: 0.0, logmi: 0.00029924511909484863
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 39, logq_z: 0.0, logmi: 7.450580596923828e-09
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 40, logq_z: 0.0, logmi: 0.0
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 41, logq_z: 0.0, logmi: 0.0005377978086471558
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 42, logq_z: 0.0, logmi: -9.313225746154785e-10
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 43, logq_z: 0.0, logmi: 1.4901161193847656e-08
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 44, logq_z: 0.0, logmi: -0.0006798841059207916
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 45, logq_z: 0.0, logmi: 0.001905970275402069
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 46, logq_z: 0.0, logmi: 0.0
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 47, logq_z: 0.0, logmi: 2.2351741790771484e-08
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 48, logq_z: 0.0, logmi: 5.587935447692871e-09
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 49, logq_z: 0.0, logmi: 1.4901161193847656e-08
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 50, logq_z: 0.0, logmi: 0.000996893271803856
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 51, logq_z: 0.0, logmi: -0.0017244275659322739
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 52, logq_z: 0.0, logmi: 0.0
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 53, logq_z: 0.0, logmi: 0.00159357488155365
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 54, logq_z: 0.0, logmi: 0.0
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 55, logq_z: 0.0, logmi: 7.450580596923828e-09
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 56, logq_z: 0.0, logmi: -7.797032594680786e-05
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 57, logq_z: 0.0, logmi: 0.0
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 58, logq_z: 0.0, logmi: 7.450580596923828e-09
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 59, logq_z: 0.0, logmi: -0.06370940804481506
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 60, logq_z: 0.0, logmi: 1.1175870895385742e-08
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 61, logq_z: 0.0, logmi: -0.005639365874230862
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 62, logq_z: 0.0, logmi: 1.862645149230957e-09
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 63, logq_z: 0.0, logmi: -0.0005509927868843079
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 64, logq_z: 0.0, logmi: -0.02840324118733406
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 65, logq_z: 0.0, logmi: 1.4901161193847656e-08
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 66, logq_z: 0.0, logmi: -0.134905606508255
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 67, logq_z: 0.0, logmi: -0.0739702433347702
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 68, logq_z: 0.0, logmi: 1.862645149230957e-08
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 69, logq_z: 0.0, logmi: 1.30385160446167e-08
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 70, logq_z: 0.0, logmi: 0.003143947571516037
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 71, logq_z: 0.0, logmi: 0.0010119937360286713
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 72, logq_z: 0.0, logmi: 0.0011263517662882805
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 73, logq_z: 0.0, logmi: 1.4901161193847656e-08
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 74, logq_z: 0.0, logmi: 1.4901161193847656e-08
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 75, logq_z: 0.0, logmi: -0.07221044600009918
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 76, logq_z: 0.0, logmi: -0.1449873447418213
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 77, logq_z: 0.0, logmi: 0.0011989958584308624
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 78, logq_z: 0.0, logmi: -0.14166474342346191
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 79, logq_z: 0.0, logmi: -0.019067514687776566
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 80, logq_z: 0.0, logmi: 0.0007915906608104706
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 81, logq_z: 0.0, logmi: 7.450580596923828e-09
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 82, logq_z: 0.0, logmi: -0.05200784653425217
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 83, logq_z: 0.0, logmi: 7.450580596923828e-09
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 84, logq_z: 0.0, logmi: -0.07537385076284409
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 85, logq_z: 0.0, logmi: -0.05154099315404892
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 86, logq_z: 0.0, logmi: 1.862645149230957e-08
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 87, logq_z: 0.0, logmi: 0.0009184796363115311
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 88, logq_z: 0.0, logmi: -0.08682730048894882
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 89, logq_z: 0.0, logmi: -0.10191041231155396
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 90, logq_z: 0.0, logmi: 0.0005249716341495514
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 91, logq_z: 0.0, logmi: 4.6566128730773926e-09
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 92, logq_z: 0.0, logmi: 0.0004112645983695984
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 93, logq_z: 0.0, logmi: -0.0008097253739833832
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 94, logq_z: 0.0, logmi: -3.725290298461914e-09
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 95, logq_z: 0.0, logmi: 1.6763806343078613e-08
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 96, logq_z: 0.0, logmi: -0.18654298782348633
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 97, logq_z: 0.0, logmi: -0.08879338204860687
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 98, logq_z: 0.0, logmi: -0.007383465766906738
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 99, logq_z: 0.0, logmi: 1.4901161193847656e-08
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 100, logq_z: 0.0, logmi: -0.0015524979680776596
+Policy saved at ./checkpoints/joint_policy_100_2025-05-21-16-29-16.pt
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 101, logq_z: 0.0, logmi: 0.0007550530135631561
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 102, logq_z: 0.0, logmi: 8.381903171539307e-09
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 103, logq_z: 0.0, logmi: -0.1459161937236786
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 104, logq_z: 0.0, logmi: 9.313225746154785e-09
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 105, logq_z: 0.0, logmi: 4.6566128730773926e-09
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 106, logq_z: 0.0, logmi: -0.03550593554973602
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 107, logq_z: 0.0, logmi: -0.008399240672588348
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+size, episode_transitions 64 94
+Episode 108, logq_z: 0.0, logmi: 0.0
+Traceback (most recent call last):
+  File "/home/gentlebear/Mres/DIAYN-PyTorch/main.py", line 182, in <module>
+    next_state, _, done, extra = env.step(action)
+  File "/home/gentlebear/Mres/dinobot/dinobot/env/cube.py", line 130, in step
+    self.simulate_step()
+  File "/home/gentlebear/Mres/dinobot/dinobot/env/base.py", line 369, in simulate_step
+    p.stepSimulation(physicsClientId=self.client)
+KeyboardInterrupt

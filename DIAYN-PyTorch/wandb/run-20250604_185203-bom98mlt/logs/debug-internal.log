@@ -1,0 +1,15 @@
+{"time":"2025-06-04T18:52:03.49683966+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/home/gentlebear/Mres/DIAYN-PyTorch/wandb/run-20250604_185203-bom98mlt/logs/debug-core.log"}
+{"time":"2025-06-04T18:52:04.808174575+01:00","level":"INFO","msg":"created new stream","id":"bom98mlt"}
+{"time":"2025-06-04T18:52:04.808213199+01:00","level":"INFO","msg":"stream: started","id":"bom98mlt"}
+{"time":"2025-06-04T18:52:04.80824031+01:00","level":"INFO","msg":"handler: started","stream_id":"bom98mlt"}
+{"time":"2025-06-04T18:52:04.808303811+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"bom98mlt"}
+{"time":"2025-06-04T18:52:04.808339358+01:00","level":"INFO","msg":"sender: started","stream_id":"bom98mlt"}
+{"time":"2025-06-04T18:52:05.14542976+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-04T18:52:07.420894915+01:00","level":"INFO","msg":"stream: closing","id":"bom98mlt"}
+{"time":"2025-06-04T18:52:07.420922788+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-04T18:52:07.421302188+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-04T18:52:07.951019857+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-04T18:52:08.158443679+01:00","level":"INFO","msg":"handler: closed","stream_id":"bom98mlt"}
+{"time":"2025-06-04T18:52:08.158520225+01:00","level":"INFO","msg":"sender: closed","stream_id":"bom98mlt"}
+{"time":"2025-06-04T18:52:08.158506328+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"bom98mlt"}
+{"time":"2025-06-04T18:52:08.158604785+01:00","level":"INFO","msg":"stream: closed","id":"bom98mlt"}

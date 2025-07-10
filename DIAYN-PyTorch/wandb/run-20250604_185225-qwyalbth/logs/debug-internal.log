@@ -1,0 +1,16 @@
+{"time":"2025-06-04T18:52:26.097636289+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/home/gentlebear/Mres/DIAYN-PyTorch/wandb/run-20250604_185225-qwyalbth/logs/debug-core.log"}
+{"time":"2025-06-04T18:52:27.408568387+01:00","level":"INFO","msg":"created new stream","id":"qwyalbth"}
+{"time":"2025-06-04T18:52:27.408612141+01:00","level":"INFO","msg":"stream: started","id":"qwyalbth"}
+{"time":"2025-06-04T18:52:27.408619174+01:00","level":"INFO","msg":"handler: started","stream_id":"qwyalbth"}
+{"time":"2025-06-04T18:52:27.408611099+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"qwyalbth"}
+{"time":"2025-06-04T18:52:27.408647818+01:00","level":"INFO","msg":"sender: started","stream_id":"qwyalbth"}
+{"time":"2025-06-04T18:52:27.646501911+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-04T19:31:38.632233477+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-04T19:31:38.632630323+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-04T19:31:39.633334275+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading checkpoints/joint_policy_100_2025-06-04-19-12-07.pt","runtime_seconds":0.287160171,"progress":"291.1KB/291.1KB"},{"desc":"uploading checkpoints/joint_policy_200_2025-06-04-19-31-38.pt","runtime_seconds":0.19387102,"progress":"291.1KB/291.1KB"}],"total_operations":2}}
+{"time":"2025-06-04T19:31:40.109320008+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-04T19:31:41.291797271+01:00","level":"INFO","msg":"stream: closing","id":"qwyalbth"}
+{"time":"2025-06-04T19:31:41.291824122+01:00","level":"INFO","msg":"handler: closed","stream_id":"qwyalbth"}
+{"time":"2025-06-04T19:31:41.291837318+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"qwyalbth"}
+{"time":"2025-06-04T19:31:41.291844391+01:00","level":"INFO","msg":"sender: closed","stream_id":"qwyalbth"}
+{"time":"2025-06-04T19:31:41.291940254+01:00","level":"INFO","msg":"stream: closed","id":"qwyalbth"}

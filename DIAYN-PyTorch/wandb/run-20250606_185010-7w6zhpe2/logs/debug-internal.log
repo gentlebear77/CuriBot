@@ -1,0 +1,20 @@
+{"time":"2025-06-06T18:50:11.206069683+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/home/gentlebear/Mres/DIAYN-PyTorch/wandb/run-20250606_185010-7w6zhpe2/logs/debug-core.log"}
+{"time":"2025-06-06T18:50:12.517720597+01:00","level":"INFO","msg":"created new stream","id":"7w6zhpe2"}
+{"time":"2025-06-06T18:50:12.517772575+01:00","level":"INFO","msg":"stream: started","id":"7w6zhpe2"}
+{"time":"2025-06-06T18:50:12.517782464+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"7w6zhpe2"}
+{"time":"2025-06-06T18:50:12.517807161+01:00","level":"INFO","msg":"sender: started","stream_id":"7w6zhpe2"}
+{"time":"2025-06-06T18:50:12.517824404+01:00","level":"INFO","msg":"handler: started","stream_id":"7w6zhpe2"}
+{"time":"2025-06-06T18:50:12.80321565+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-06T19:06:58.97895602+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-06-06T19:20:31.552801753+01:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/yuhongze510/DIYAN/7w6zhpe2/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-06-07T02:06:06.440799226+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/yuhongze510/DIYAN/7w6zhpe2/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: server misbehaving"}
+{"time":"2025-06-07T02:06:07.489093925+01:00","level":"INFO","msg":"stream: closing","id":"7w6zhpe2"}
+{"time":"2025-06-07T02:06:07.48912808+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-07T02:06:07.489533641+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-07T02:06:08.454090702+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/yuhongze510/DIYAN/7w6zhpe2/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: server misbehaving"}
+{"time":"2025-06-07T02:06:13.159438676+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 10.214.138.211:58236->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-06-07T02:06:16.863781271+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-07T02:06:17.016768031+01:00","level":"INFO","msg":"handler: closed","stream_id":"7w6zhpe2"}
+{"time":"2025-06-07T02:06:17.016879363+01:00","level":"INFO","msg":"sender: closed","stream_id":"7w6zhpe2"}
+{"time":"2025-06-07T02:06:17.016848354+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"7w6zhpe2"}
+{"time":"2025-06-07T02:06:17.017096756+01:00","level":"INFO","msg":"stream: closed","id":"7w6zhpe2"}

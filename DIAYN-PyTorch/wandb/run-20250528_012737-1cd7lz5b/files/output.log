@@ -1,0 +1,17 @@
+Demo data loaded with 94 length.
+params: {'n_skills': 1, 'mem_size': 1000000, 'interval': 100, 'do_train': True, 'train_from_scratch': True, 'seed': 42, 'batch_size': 128, 'n_hiddens': 256, 'lr': 0.001, 'reward_scale': 0.01, 'MI_scale': 1, 'alpha': 0.1, 'gamma': 0.99, 'tau': 0.005, 'max_n_episodes': 200, 'action_bounds': [-0.005, 0.005], 'epoch_length': 10, 'train_interval': 1, 'n_states': 9, 'n_actions': 8, 'n_object_states': 6}
+Training from scratch.
+  0%|                                                                                                                            | 0/200 [00:00<?, ?it/s]/home/gentlebear/Mres/DIAYN-PyTorch/Brain/agent.py:74: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:245.)
+  action = torch.Tensor([action]).to("cpu")
+Episode 1, logq_z: 0.0, logmi: 0.0
+  0%|▌                                                                                                                 | 1/200 [00:23<1:18:08, 23.56s/it]
+random_episode_id 1
+episode_transitions 94
+Traceback (most recent call last):
+  File "/home/gentlebear/Mres/DIAYN-PyTorch/main.py", line 207, in <module>
+    loss = agent.train()
+  File "/home/gentlebear/Mres/DIAYN-PyTorch/Brain/agent.py", line 106, in train
+    states, zs, dones, actions, object_states, next_states = self.unpack(batch)
+  File "/home/gentlebear/Mres/DIAYN-PyTorch/Brain/agent.py", line 83, in unpack
+    states = torch.cat(batch.state).view(self.batch_size, self.n_states + self.n_skills).to(self.device)
+RuntimeError: shape '[128, 10]' is invalid for input of size 940

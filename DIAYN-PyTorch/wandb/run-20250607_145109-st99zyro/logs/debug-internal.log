@@ -1,0 +1,16 @@
+{"time":"2025-06-07T14:51:09.503208734+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/home/gentlebear/Mres/DIAYN-PyTorch/wandb/run-20250607_145109-st99zyro/logs/debug-core.log"}
+{"time":"2025-06-07T14:51:10.815820665+01:00","level":"INFO","msg":"created new stream","id":"st99zyro"}
+{"time":"2025-06-07T14:51:10.815853907+01:00","level":"INFO","msg":"stream: started","id":"st99zyro"}
+{"time":"2025-06-07T14:51:10.815900023+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"st99zyro"}
+{"time":"2025-06-07T14:51:10.815908209+01:00","level":"INFO","msg":"sender: started","stream_id":"st99zyro"}
+{"time":"2025-06-07T14:51:10.81593566+01:00","level":"INFO","msg":"handler: started","stream_id":"st99zyro"}
+{"time":"2025-06-07T14:51:11.01493533+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-07T15:10:51.492675881+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-07T15:10:51.493044809+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-07T15:10:52.493002164+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading checkpoints/joint_policy_100_2025-06-07-15-10-51.pt","runtime_seconds":0.001648615,"progress":"291.0KB/291.0KB"}],"total_operations":1}}
+{"time":"2025-06-07T15:10:53.189735119+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-07T15:10:54.373100858+01:00","level":"INFO","msg":"stream: closing","id":"st99zyro"}
+{"time":"2025-06-07T15:10:54.373122558+01:00","level":"INFO","msg":"handler: closed","stream_id":"st99zyro"}
+{"time":"2025-06-07T15:10:54.373133038+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"st99zyro"}
+{"time":"2025-06-07T15:10:54.37315036+01:00","level":"INFO","msg":"sender: closed","stream_id":"st99zyro"}
+{"time":"2025-06-07T15:10:54.373203479+01:00","level":"INFO","msg":"stream: closed","id":"st99zyro"}

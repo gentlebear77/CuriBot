@@ -1,0 +1,16 @@
+{"time":"2025-05-25T19:39:52.85597001+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/home/gentlebear/Mres/DIAYN-PyTorch/wandb/run-20250525_193952-fw5svtvt/logs/debug-core.log"}
+{"time":"2025-05-25T19:39:52.959645489+01:00","level":"INFO","msg":"created new stream","id":"fw5svtvt"}
+{"time":"2025-05-25T19:39:52.959685735+01:00","level":"INFO","msg":"stream: started","id":"fw5svtvt"}
+{"time":"2025-05-25T19:39:52.959718137+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"fw5svtvt"}
+{"time":"2025-05-25T19:39:52.959749246+01:00","level":"INFO","msg":"sender: started","stream_id":"fw5svtvt"}
+{"time":"2025-05-25T19:39:52.959773021+01:00","level":"INFO","msg":"handler: started","stream_id":"fw5svtvt"}
+{"time":"2025-05-25T19:39:53.167658411+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-25T20:19:15.429843737+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-25T20:19:15.430197789+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-25T20:19:16.431127575+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading checkpoints/joint_policy_100_2025-05-25-19-59-36.pt","runtime_seconds":0.390006176,"progress":"287.1KB/287.1KB"},{"desc":"uploading checkpoints/joint_policy_200_2025-05-25-20-19-15.pt","runtime_seconds":0.173863361,"progress":"287.1KB/287.1KB"}],"total_operations":2}}
+{"time":"2025-05-25T20:19:17.023274016+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-25T20:19:18.186465814+01:00","level":"INFO","msg":"stream: closing","id":"fw5svtvt"}
+{"time":"2025-05-25T20:19:18.186494629+01:00","level":"INFO","msg":"handler: closed","stream_id":"fw5svtvt"}
+{"time":"2025-05-25T20:19:18.186507924+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"fw5svtvt"}
+{"time":"2025-05-25T20:19:18.186539273+01:00","level":"INFO","msg":"sender: closed","stream_id":"fw5svtvt"}
+{"time":"2025-05-25T20:19:18.186576023+01:00","level":"INFO","msg":"stream: closed","id":"fw5svtvt"}

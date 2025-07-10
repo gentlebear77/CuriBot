@@ -1,0 +1,16 @@
+{"time":"2025-06-23T19:22:40.986160547+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/home/gentlebear/Mres/DIAYN-PyTorch/wandb/run-20250623_192240-5w7tdfs8/logs/debug-core.log"}
+{"time":"2025-06-23T19:22:42.29561697+01:00","level":"INFO","msg":"created new stream","id":"5w7tdfs8"}
+{"time":"2025-06-23T19:22:42.2956432+01:00","level":"INFO","msg":"stream: started","id":"5w7tdfs8"}
+{"time":"2025-06-23T19:22:42.295675922+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"5w7tdfs8"}
+{"time":"2025-06-23T19:22:42.29568548+01:00","level":"INFO","msg":"handler: started","stream_id":"5w7tdfs8"}
+{"time":"2025-06-23T19:22:42.295728482+01:00","level":"INFO","msg":"sender: started","stream_id":"5w7tdfs8"}
+{"time":"2025-06-23T19:22:42.566874888+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-23T19:37:16.649907081+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-23T19:37:16.650439571+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-23T19:37:17.611861057+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading checkpoints/joint_policy_100_2025-06-23-19-37-16.pt","runtime_seconds":0.057143194,"progress":"291.1KB/291.1KB"}],"total_operations":1}}
+{"time":"2025-06-23T19:37:18.227607548+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-23T19:37:19.410943431+01:00","level":"INFO","msg":"stream: closing","id":"5w7tdfs8"}
+{"time":"2025-06-23T19:37:19.410972065+01:00","level":"INFO","msg":"handler: closed","stream_id":"5w7tdfs8"}
+{"time":"2025-06-23T19:37:19.410983737+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"5w7tdfs8"}
+{"time":"2025-06-23T19:37:19.411005318+01:00","level":"INFO","msg":"sender: closed","stream_id":"5w7tdfs8"}
+{"time":"2025-06-23T19:37:19.411089618+01:00","level":"INFO","msg":"stream: closed","id":"5w7tdfs8"}

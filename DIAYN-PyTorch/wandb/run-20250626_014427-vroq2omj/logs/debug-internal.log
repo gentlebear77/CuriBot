@@ -1,0 +1,16 @@
+{"time":"2025-06-26T01:44:27.999860635+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/home/gentlebear/Mres/DIAYN-PyTorch/wandb/run-20250626_014427-vroq2omj/logs/debug-core.log"}
+{"time":"2025-06-26T01:44:29.309659405+01:00","level":"INFO","msg":"created new stream","id":"vroq2omj"}
+{"time":"2025-06-26T01:44:29.30968328+01:00","level":"INFO","msg":"stream: started","id":"vroq2omj"}
+{"time":"2025-06-26T01:44:29.309709179+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"vroq2omj"}
+{"time":"2025-06-26T01:44:29.309736461+01:00","level":"INFO","msg":"sender: started","stream_id":"vroq2omj"}
+{"time":"2025-06-26T01:44:29.309760697+01:00","level":"INFO","msg":"handler: started","stream_id":"vroq2omj"}
+{"time":"2025-06-26T01:44:29.52419965+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-26T02:43:40.356005641+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-26T02:43:40.356363661+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-26T02:43:41.356439378+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading checkpoints/joint_policy_200_2025-06-26-02-23-59.pt","runtime_seconds":0.191321823,"progress":"287.1KB/287.1KB"},{"desc":"uploading checkpoints/joint_policy_300_2025-06-26-02-43-40.pt","runtime_seconds":0.191313428,"progress":"287.1KB/287.1KB"},{"desc":"uploading checkpoints/joint_policy_100_2025-06-26-02-04-19.pt","runtime_seconds":0.191311314,"progress":"287.1KB/287.1KB"}],"total_operations":3}}
+{"time":"2025-06-26T02:43:41.921181217+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-26T02:43:43.090967528+01:00","level":"INFO","msg":"stream: closing","id":"vroq2omj"}
+{"time":"2025-06-26T02:43:43.091001142+01:00","level":"INFO","msg":"handler: closed","stream_id":"vroq2omj"}
+{"time":"2025-06-26T02:43:43.091015469+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"vroq2omj"}
+{"time":"2025-06-26T02:43:43.091036779+01:00","level":"INFO","msg":"sender: closed","stream_id":"vroq2omj"}
+{"time":"2025-06-26T02:43:43.091129275+01:00","level":"INFO","msg":"stream: closed","id":"vroq2omj"}

@@ -1,0 +1,16 @@
+{"time":"2025-06-23T20:23:32.623844892+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/home/gentlebear/Mres/DIAYN-PyTorch/wandb/run-20250623_202332-1etxilop/logs/debug-core.log"}
+{"time":"2025-06-23T20:23:33.934895984+01:00","level":"INFO","msg":"created new stream","id":"1etxilop"}
+{"time":"2025-06-23T20:23:33.934921222+01:00","level":"INFO","msg":"stream: started","id":"1etxilop"}
+{"time":"2025-06-23T20:23:33.934928636+01:00","level":"INFO","msg":"handler: started","stream_id":"1etxilop"}
+{"time":"2025-06-23T20:23:33.934944907+01:00","level":"INFO","msg":"sender: started","stream_id":"1etxilop"}
+{"time":"2025-06-23T20:23:33.934969794+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"1etxilop"}
+{"time":"2025-06-23T20:23:34.130707848+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-23T21:22:10.99060394+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-23T21:22:10.991301115+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-23T21:22:11.953268578+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading checkpoints/joint_policy_200_2025-06-23-21-02-38.pt","runtime_seconds":0.215497869,"progress":"291.1KB/291.1KB"},{"desc":"uploading checkpoints/joint_policy_100_2025-06-23-20-43-06.pt","runtime_seconds":0.215491036,"progress":"291.1KB/291.1KB"},{"desc":"uploading checkpoints/joint_policy_300_2025-06-23-21-22-10.pt","runtime_seconds":0.185968682,"progress":"291.1KB/291.1KB"}],"total_operations":3}}
+{"time":"2025-06-23T21:22:12.516360457+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-23T21:22:13.71553896+01:00","level":"INFO","msg":"stream: closing","id":"1etxilop"}
+{"time":"2025-06-23T21:22:13.715556232+01:00","level":"INFO","msg":"handler: closed","stream_id":"1etxilop"}
+{"time":"2025-06-23T21:22:13.715564829+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"1etxilop"}
+{"time":"2025-06-23T21:22:13.715571291+01:00","level":"INFO","msg":"sender: closed","stream_id":"1etxilop"}
+{"time":"2025-06-23T21:22:13.715616236+01:00","level":"INFO","msg":"stream: closed","id":"1etxilop"}

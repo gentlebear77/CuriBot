@@ -1,0 +1,14 @@
+{"time":"2025-06-02T16:56:50.849770155+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/home/gentlebear/Mres/DIAYN-PyTorch/wandb/offline-run-20250602_165650-u43dt50w/logs/debug-core.log"}
+{"time":"2025-06-02T16:56:52.162357104+01:00","level":"INFO","msg":"created new stream","id":"u43dt50w"}
+{"time":"2025-06-02T16:56:52.162410616+01:00","level":"INFO","msg":"stream: started","id":"u43dt50w"}
+{"time":"2025-06-02T16:56:52.162412851+01:00","level":"INFO","msg":"handler: started","stream_id":"u43dt50w"}
+{"time":"2025-06-02T16:56:52.162518503+01:00","level":"INFO","msg":"sender: started","stream_id":"u43dt50w"}
+{"time":"2025-06-02T16:56:52.162431927+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"u43dt50w"}
+{"time":"2025-06-02T16:56:52.164787692+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-02T16:57:13.626385753+01:00","level":"INFO","msg":"stream: closing","id":"u43dt50w"}
+{"time":"2025-06-02T16:57:13.62642069+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-02T16:57:13.626961325+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-02T16:57:13.627012583+01:00","level":"INFO","msg":"handler: closed","stream_id":"u43dt50w"}
+{"time":"2025-06-02T16:57:13.627023064+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"u43dt50w"}
+{"time":"2025-06-02T16:57:13.627033484+01:00","level":"INFO","msg":"sender: closed","stream_id":"u43dt50w"}
+{"time":"2025-06-02T16:57:13.627117685+01:00","level":"INFO","msg":"stream: closed","id":"u43dt50w"}

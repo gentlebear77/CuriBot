@@ -1,0 +1,142 @@
+/home/gentlebear/miniforge3/envs/curiosity/lib/python3.10/site-packages/torch/cuda/__init__.py:107: UserWarning: CUDA initialization: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero. (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:109.)
+  return torch._C._cuda_getDeviceCount() > 0
+Demo data loaded with 94 length.
+params: {'n_skills': 1, 'mem_size': 1000000, 'interval': 100, 'do_train': True, 'train_from_scratch': True, 'seed': 42, 'batch_size': 64, 'n_hiddens': 256, 'lr': 0.001, 'reward_scale': 0.01, 'MI_scale': 1, 'alpha': 0.1, 'gamma': 0.99, 'tau': 0.005, 'max_n_episodes': 200, 'action_bounds': [-0.005, 0.005], 'epoch_length': 10, 'train_interval': 1, 'n_states': 9, 'n_actions': 8, 'n_object_states': 6}
+Training from scratch.
+  0%|                                                               | 0/200 [00:00<?, ?it/s]/home/gentlebear/Mres/DIAYN-PyTorch/Brain/agent.py:74: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:245.)
+  action = torch.Tensor([action]).to("cpu")
+random_episode_id 1
+episode_transitions 94
+random_episode_id 1
+episode_transitions 94
+random_episode_id 1
+episode_transitions 94
+random_episode_id 1
+episode_transitions 94
+random_episode_id 1
+episode_transitions 94
+random_episode_id 1
+episode_transitions 94
+random_episode_id 1
+episode_transitions 94
+random_episode_id 1
+episode_transitions 94
+random_episode_id 1
+episode_transitions 94
+random_episode_id 1
+episode_transitions 94
+Episode 1, logq_z: 0.0, logmi: 0.0015959739685058594
+  1%|▌                                                      | 2/200 [00:26<44:09, 13.38s/it]
+random_episode_id 2
+episode_transitions 94
+random_episode_id 2
+episode_transitions 94
+random_episode_id 2
+episode_transitions 94
+random_episode_id 1
+episode_transitions 94
+random_episode_id 1
+episode_transitions 94
+random_episode_id 2
+episode_transitions 94
+random_episode_id 1
+episode_transitions 94
+random_episode_id 1
+episode_transitions 94
+random_episode_id 1
+episode_transitions 94
+random_episode_id 1
+episode_transitions 94
+Episode 2, logq_z: 0.0, logmi: 0.00027831792831420896
+random_episode_id 2
+episode_transitions 94
+random_episode_id 3
+episode_transitions 94
+random_episode_id 1
+episode_transitions 94
+random_episode_id 2
+episode_transitions 94
+random_episode_id 2
+episode_transitions 94
+random_episode_id 2
+episode_transitions 94
+random_episode_id 3
+episode_transitions 94
+random_episode_id 3
+episode_transitions 94
+random_episode_id 3
+episode_transitions 94
+random_episode_id 3
+episode_transitions 94
+Episode 3, logq_z: 0.0, logmi: 0.00024234056472778321
+random_episode_id 3
+episode_transitions 94
+random_episode_id 3
+episode_transitions 94
+random_episode_id 1
+episode_transitions 94
+random_episode_id 3
+episode_transitions 94
+random_episode_id 3
+episode_transitions 94
+random_episode_id 4
+episode_transitions 94
+random_episode_id 4
+episode_transitions 94
+random_episode_id 3
+episode_transitions 94
+random_episode_id 1
+episode_transitions 94
+random_episode_id 1
+episode_transitions 94
+Episode 4, logq_z: 0.0, logmi: 0.00013059377670288086
+random_episode_id 2
+episode_transitions 94
+random_episode_id 4
+episode_transitions 94
+random_episode_id 5
+episode_transitions 94
+random_episode_id 4
+episode_transitions 94
+random_episode_id 1
+episode_transitions 94
+random_episode_id 1
+episode_transitions 94
+random_episode_id 1
+episode_transitions 94
+random_episode_id 5
+episode_transitions 94
+random_episode_id 1
+episode_transitions 94
+random_episode_id 4
+episode_transitions 94
+Episode 5, logq_z: 0.0, logmi: 4.217624664306641e-05
+random_episode_id 6
+episode_transitions 94
+random_episode_id 1
+episode_transitions 94
+random_episode_id 3
+episode_transitions 94
+random_episode_id 1
+episode_transitions 94
+random_episode_id 4
+episode_transitions 94
+random_episode_id 3
+episode_transitions 94
+random_episode_id 3
+episode_transitions 94
+random_episode_id 1
+episode_transitions 94
+random_episode_id 5
+episode_transitions 94
+random_episode_id 5
+episode_transitions 94
+Episode 6, logq_z: 0.0, logmi: 3.306269645690918e-05
+Traceback (most recent call last):
+  File "/home/gentlebear/Mres/DIAYN-PyTorch/main.py", line 183, in <module>
+    next_state, _, done, extra = env.step(action)
+  File "/home/gentlebear/Mres/dinobot/dinobot/env/cube.py", line 130, in step
+    self.simulate_step()
+  File "/home/gentlebear/Mres/dinobot/dinobot/env/base.py", line 389, in simulate_step
+    p.stepSimulation(physicsClientId=self.client)
+KeyboardInterrupt

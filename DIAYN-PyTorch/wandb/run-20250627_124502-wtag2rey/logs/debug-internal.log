@@ -1,0 +1,16 @@
+{"time":"2025-06-27T12:45:02.999635317+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/home/gentlebear/Mres/DIAYN-PyTorch/wandb/run-20250627_124502-wtag2rey/logs/debug-core.log"}
+{"time":"2025-06-27T12:45:04.312013852+01:00","level":"INFO","msg":"created new stream","id":"wtag2rey"}
+{"time":"2025-06-27T12:45:04.312058698+01:00","level":"INFO","msg":"stream: started","id":"wtag2rey"}
+{"time":"2025-06-27T12:45:04.312069168+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"wtag2rey"}
+{"time":"2025-06-27T12:45:04.312117469+01:00","level":"INFO","msg":"sender: started","stream_id":"wtag2rey"}
+{"time":"2025-06-27T12:45:04.31216021+01:00","level":"INFO","msg":"handler: started","stream_id":"wtag2rey"}
+{"time":"2025-06-27T12:45:04.668383854+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-27T13:40:29.810002252+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-27T13:40:29.811248599+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-27T13:40:30.772777762+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading checkpoints/joint_policy_300_2025-06-27-13-40-29.pt","runtime_seconds":0.073223093,"progress":"287.1KB/287.1KB"},{"desc":"uploading checkpoints/joint_policy_100_2025-06-27-13-02-48.pt","runtime_seconds":0.073194309,"progress":"287.1KB/287.1KB"},{"desc":"uploading checkpoints/joint_policy_200_2025-06-27-13-22-08.pt","runtime_seconds":0.073187336,"progress":"287.1KB/287.1KB"}],"total_operations":3}}
+{"time":"2025-06-27T13:40:31.409559145+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-27T13:40:32.65567572+01:00","level":"INFO","msg":"stream: closing","id":"wtag2rey"}
+{"time":"2025-06-27T13:40:32.655703854+01:00","level":"INFO","msg":"handler: closed","stream_id":"wtag2rey"}
+{"time":"2025-06-27T13:40:32.655715576+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"wtag2rey"}
+{"time":"2025-06-27T13:40:32.655727288+01:00","level":"INFO","msg":"sender: closed","stream_id":"wtag2rey"}
+{"time":"2025-06-27T13:40:32.655808392+01:00","level":"INFO","msg":"stream: closed","id":"wtag2rey"}

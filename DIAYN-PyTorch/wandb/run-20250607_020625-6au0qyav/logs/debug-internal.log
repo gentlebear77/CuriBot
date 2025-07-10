@@ -1,0 +1,25 @@
+{"time":"2025-06-07T02:06:25.47325964+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/home/gentlebear/Mres/DIAYN-PyTorch/wandb/run-20250607_020625-6au0qyav/logs/debug-core.log"}
+{"time":"2025-06-07T02:06:25.57670594+01:00","level":"INFO","msg":"created new stream","id":"6au0qyav"}
+{"time":"2025-06-07T02:06:25.576731108+01:00","level":"INFO","msg":"stream: started","id":"6au0qyav"}
+{"time":"2025-06-07T02:06:25.57675851+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"6au0qyav"}
+{"time":"2025-06-07T02:06:25.576775412+01:00","level":"INFO","msg":"handler: started","stream_id":"6au0qyav"}
+{"time":"2025-06-07T02:06:25.576820217+01:00","level":"INFO","msg":"sender: started","stream_id":"6au0qyav"}
+{"time":"2025-06-07T02:06:25.802429534+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-07T03:13:28.424150799+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-06-07T03:14:00.770254204+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-06-07T03:14:35.770864645+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-06-07T03:15:12.03306191+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/yuhongze510/DIYAN/6au0qyav/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-06-07T03:15:14.127984058+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-06-07T03:16:00.541623107+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-06-07T03:17:03.076683094+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-06-07T03:17:27.201406375+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/yuhongze510/DIYAN/6au0qyav/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-06-07T03:18:33.078930657+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-06-07T08:38:35.083628169+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-07T08:38:35.084003702+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-07T08:38:36.084047515+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.643492421,"progress":"142.3KB/142.3KB"},{"desc":"uploading checkpoints/joint_policy_1900_2025-06-07-08-19-04.pt","runtime_seconds":0.171671075,"progress":"291.1KB/291.1KB"},{"desc":"uploading checkpoints/joint_policy_100_2025-06-07-02-25-58.pt","runtime_seconds":0.171653822,"progress":"112.0KB/291.0KB"},{"desc":"uploading checkpoints/joint_policy_1700_2025-06-07-07-40-00.pt","runtime_seconds":0.17164764,"progress":"64.0KB/291.1KB"},{"desc":"uploading checkpoints/joint_policy_1200_2025-06-07-06-01-45.pt","runtime_seconds":0.171643503,"progress":"48.0KB/291.1KB"},{"desc":"uploading checkpoints/joint_policy_800_2025-06-07-04-43-13.pt","runtime_seconds":0.171639816,"progress":"64.0KB/291.0KB"},{"desc":"uploading checkpoints/joint_policy_1000_2025-06-07-05-22-31.pt","runtime_seconds":0.171636098,"progress":"64.0KB/291.1KB"},{"desc":"uploading checkpoints/joint_policy_400_2025-06-07-03-25-04.pt","runtime_seconds":0.171632282,"progress":"96.0KB/291.0KB"},{"desc":"uploading checkpoints/joint_policy_1800_2025-06-07-07-59-34.pt","runtime_seconds":0.171616141,"progress":"288.0KB/291.1KB"},{"desc":"uploading checkpoints/joint_policy_300_2025-06-07-03-05-24.pt","runtime_seconds":0.171608396,"progress":"192.0KB/291.0KB"}],"total_operations":21}}
+{"time":"2025-06-07T08:38:37.012572671+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-07T08:38:38.190221812+01:00","level":"INFO","msg":"stream: closing","id":"6au0qyav"}
+{"time":"2025-06-07T08:38:38.190237713+01:00","level":"INFO","msg":"handler: closed","stream_id":"6au0qyav"}
+{"time":"2025-06-07T08:38:38.190247621+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"6au0qyav"}
+{"time":"2025-06-07T08:38:38.190259965+01:00","level":"INFO","msg":"sender: closed","stream_id":"6au0qyav"}
+{"time":"2025-06-07T08:38:38.190313897+01:00","level":"INFO","msg":"stream: closed","id":"6au0qyav"}

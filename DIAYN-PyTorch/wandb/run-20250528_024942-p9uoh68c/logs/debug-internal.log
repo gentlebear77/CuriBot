@@ -1,0 +1,16 @@
+{"time":"2025-05-28T02:49:42.386202846+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/home/gentlebear/Mres/DIAYN-PyTorch/wandb/run-20250528_024942-p9uoh68c/logs/debug-core.log"}
+{"time":"2025-05-28T02:49:42.490387906+01:00","level":"INFO","msg":"created new stream","id":"p9uoh68c"}
+{"time":"2025-05-28T02:49:42.490414265+01:00","level":"INFO","msg":"stream: started","id":"p9uoh68c"}
+{"time":"2025-05-28T02:49:42.490444052+01:00","level":"INFO","msg":"sender: started","stream_id":"p9uoh68c"}
+{"time":"2025-05-28T02:49:42.490441828+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"p9uoh68c"}
+{"time":"2025-05-28T02:49:42.490484038+01:00","level":"INFO","msg":"handler: started","stream_id":"p9uoh68c"}
+{"time":"2025-05-28T02:49:42.697622353+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-28T03:29:20.932310129+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-28T03:29:20.932641035+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-28T03:29:21.933561445+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.674856397,"progress":"97.9KB/97.9KB"},{"desc":"uploading checkpoints/joint_policy_100_2025-05-28-03-09-39.pt","runtime_seconds":0.16887226,"progress":"287.1KB/287.1KB"},{"desc":"uploading checkpoints/joint_policy_200_2025-05-28-03-29-20.pt","runtime_seconds":0.168855389,"progress":"287.1KB/287.1KB"}],"total_operations":3}}
+{"time":"2025-05-28T03:29:22.437655967+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-28T03:29:23.620185007+01:00","level":"INFO","msg":"stream: closing","id":"p9uoh68c"}
+{"time":"2025-05-28T03:29:23.620205947+01:00","level":"INFO","msg":"handler: closed","stream_id":"p9uoh68c"}
+{"time":"2025-05-28T03:29:23.620216938+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"p9uoh68c"}
+{"time":"2025-05-28T03:29:23.620246243+01:00","level":"INFO","msg":"sender: closed","stream_id":"p9uoh68c"}
+{"time":"2025-05-28T03:29:23.620328018+01:00","level":"INFO","msg":"stream: closed","id":"p9uoh68c"}

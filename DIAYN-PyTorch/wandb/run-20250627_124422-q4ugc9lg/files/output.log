@@ -1,0 +1,10 @@
+Demo data loaded with 94 length.
+params: {'n_skills': 1, 'mem_size': 1000000, 'interval': 100, 'do_train': True, 'train_from_scratch': False, 'seed': 42, 'batch_size': 256, 'n_hiddens': 256, 'lr': 0.001, 'reward_scale': 0.01, 'MI_scale': 1000, 'alpha': 0.1, 'gamma': 0.99, 'tau': 0.005, 'max_n_episodes': 300, 'action_bounds': [-0.005, 0.005], 'epoch_length': 1, 'train_interval': 1, 'n_states': 9, 'n_actions': 8, 'n_object_states': 6, 'episode_length': 94}
+Traceback (most recent call last):
+  File "/home/gentlebear/Mres/DIAYN-PyTorch/main.py", line 143, in <module>
+    agent.MI_discriminator.load_state_dict(torch.load(f))
+  File "/home/gentlebear/miniforge3/envs/curiosity/lib/python3.10/site-packages/torch/nn/modules/module.py", line 2041, in load_state_dict
+    raise RuntimeError('Error(s) in loading state_dict for {}:\n\t{}'.format(
+RuntimeError: Error(s) in loading state_dict for StateMI:
+	Missing key(s) in state_dict: "fc1.weight", "fc1.bias", "fc2.weight", "fc2.bias", "fc3.weight", "fc3.bias".
+	Unexpected key(s) in state_dict: "hidden1.weight", "hidden1.bias", "hidden2.weight", "hidden2.bias", "mu.weight", "mu.bias", "log_std.weight", "log_std.bias".

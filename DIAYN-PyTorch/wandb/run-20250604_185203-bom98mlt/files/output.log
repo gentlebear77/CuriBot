@@ -1,0 +1,12 @@
+Demo data loaded with 94 length.
+params: {'n_skills': 2, 'mem_size': 1000000, 'interval': 100, 'do_train': True, 'train_from_scratch': True, 'seed': 42, 'batch_size': 32, 'n_hiddens': 256, 'lr': 0.001, 'reward_scale': 0.01, 'MI_scale': 1, 'alpha': 0.1, 'gamma': 0.99, 'tau': 0.005, 'max_n_episodes': 200, 'action_bounds': [-0.005, 0.005], 'epoch_length': 1, 'train_interval': 1, 'n_states': 9, 'n_actions': 8, 'n_object_states': 6, 'episode_length': 94}
+Training from scratch.
+  0%|                                                                                             | 0/200 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/gentlebear/Mres/DIAYN-PyTorch/main.py", line 174, in <module>
+    env.reset()
+  File "/home/gentlebear/Mres/dinobot/dinobot/env/base.py", line 135, in reset
+    self.setup_env()
+  File "/home/gentlebear/Mres/dinobot/dinobot/env/base.py", line 84, in setup_env
+    robot_idx = p.loadURDF(self.robot_urdf, useFixedBase=True, physicsClientId=self.client)
+KeyboardInterrupt

@@ -1,0 +1,16 @@
+{"time":"2025-06-27T14:29:02.886048958+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/home/gentlebear/Mres/DIAYN-PyTorch/wandb/run-20250627_142902-2mhdlemi/logs/debug-core.log"}
+{"time":"2025-06-27T14:29:04.196369574+01:00","level":"INFO","msg":"created new stream","id":"2mhdlemi"}
+{"time":"2025-06-27T14:29:04.196399641+01:00","level":"INFO","msg":"stream: started","id":"2mhdlemi"}
+{"time":"2025-06-27T14:29:04.196402256+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"2mhdlemi"}
+{"time":"2025-06-27T14:29:04.19640965+01:00","level":"INFO","msg":"handler: started","stream_id":"2mhdlemi"}
+{"time":"2025-06-27T14:29:04.19646184+01:00","level":"INFO","msg":"sender: started","stream_id":"2mhdlemi"}
+{"time":"2025-06-27T14:29:04.483922462+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-27T15:30:42.052823746+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-27T15:30:42.053709264+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-27T15:30:43.014498194+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading checkpoints/joint_policy_100_2025-06-27-14-49-22.pt","runtime_seconds":0.242947816,"progress":"291.1KB/291.1KB"},{"desc":"uploading checkpoints/joint_policy_200_2025-06-27-15-09-54.pt","runtime_seconds":0.24293411,"progress":"291.1KB/291.1KB"},{"desc":"uploading checkpoints/joint_policy_300_2025-06-27-15-30-42.pt","runtime_seconds":0.170800023,"progress":"291.1KB/291.1KB"}],"total_operations":3}}
+{"time":"2025-06-27T15:30:43.498425882+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-27T15:30:44.67679927+01:00","level":"INFO","msg":"stream: closing","id":"2mhdlemi"}
+{"time":"2025-06-27T15:30:44.676826412+01:00","level":"INFO","msg":"handler: closed","stream_id":"2mhdlemi"}
+{"time":"2025-06-27T15:30:44.676838445+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"2mhdlemi"}
+{"time":"2025-06-27T15:30:44.676867951+01:00","level":"INFO","msg":"sender: closed","stream_id":"2mhdlemi"}
+{"time":"2025-06-27T15:30:44.676946381+01:00","level":"INFO","msg":"stream: closed","id":"2mhdlemi"}

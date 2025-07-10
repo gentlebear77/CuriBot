@@ -1,0 +1,36 @@
+Demo data loaded with 94 length.
+params: {'n_skills': 1, 'mem_size': 1000000, 'interval': 100, 'do_train': True, 'train_from_scratch': True, 'seed': 42, 'batch_size': 64, 'n_hiddens': 256, 'lr': 0.001, 'reward_scale': 0.01, 'MI_scale': 1, 'alpha': 0.1, 'gamma': 0.99, 'tau': 0.005, 'max_n_episodes': 1000, 'action_bounds': [-0.005, 0.005], 'epoch_length': 10, 'n_states': 9, 'n_actions': 8, 'n_object_states': 6}
+Training from scratch.
+  0%|                                                                                            | 0/1000 [00:00<?, ?it/s]/home/gentlebear/Mres/DIAYN-PyTorch/Brain/agent.py:74: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:245.)
+  action = torch.Tensor([action]).to("cpu")
+100%|███████████████████████████████████████████████████████████████████████████████| 1000/1000 [3:18:33<00:00, 11.91s/it]
+Episode 50, logq_z: 0.0, logmi: 0.0008569471538066864
+Policy saved at ./checkpoints/joint_policy_100_2025-05-21-19-23-28.pt
+Episode 100, logq_z: 0.0, logmi: 0.0021998807787895203
+Episode 150, logq_z: 0.0, logmi: -0.002696726471185684
+Policy saved at ./checkpoints/joint_policy_200_2025-05-21-19-43-11.pt
+Episode 200, logq_z: 0.0, logmi: -3.725290298461914e-09
+Episode 250, logq_z: 0.0, logmi: 8.381903171539307e-09
+Policy saved at ./checkpoints/joint_policy_300_2025-05-21-20-03-03.pt
+Episode 300, logq_z: 0.0, logmi: -0.18176524341106415
+Episode 350, logq_z: 0.0, logmi: -0.0010461360216140747
+Policy saved at ./checkpoints/joint_policy_400_2025-05-21-20-22-54.pt
+Episode 400, logq_z: 0.0, logmi: 1.4901161193847656e-08
+Episode 450, logq_z: 0.0, logmi: 7.450580596923828e-09
+Policy saved at ./checkpoints/joint_policy_500_2025-05-21-20-42-51.pt
+Episode 500, logq_z: 0.0, logmi: 1.1175870895385742e-08
+Episode 550, logq_z: 0.0, logmi: 1.862645149230957e-08
+Policy saved at ./checkpoints/joint_policy_600_2025-05-21-21-02-39.pt
+Episode 600, logq_z: 0.0, logmi: -0.05637913942337036
+Episode 650, logq_z: 0.0, logmi: 0.0
+Policy saved at ./checkpoints/joint_policy_700_2025-05-21-21-22-30.pt
+Episode 700, logq_z: 0.0, logmi: 7.450580596923828e-09
+Episode 750, logq_z: 0.0, logmi: 0.016952037811279297
+Policy saved at ./checkpoints/joint_policy_800_2025-05-21-21-42-21.pt
+Episode 800, logq_z: 0.0, logmi: 0.0
+Episode 850, logq_z: 0.0, logmi: 0.008255675435066223
+Policy saved at ./checkpoints/joint_policy_900_2025-05-21-22-02-15.pt
+Episode 900, logq_z: 0.0, logmi: 1.4901161193847656e-08
+Episode 950, logq_z: 0.0, logmi: -0.00636761449277401
+Policy saved at ./checkpoints/joint_policy_1000_2025-05-21-22-22-22.pt
+Episode 1000, logq_z: 0.0, logmi: -0.19748380780220032

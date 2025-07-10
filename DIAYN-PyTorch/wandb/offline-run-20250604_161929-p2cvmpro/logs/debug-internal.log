@@ -1,0 +1,14 @@
+{"time":"2025-06-04T16:19:29.90584538+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/home/gentlebear/Mres/DIAYN-PyTorch/wandb/offline-run-20250604_161929-p2cvmpro/logs/debug-core.log"}
+{"time":"2025-06-04T16:19:31.216706992+01:00","level":"INFO","msg":"created new stream","id":"p2cvmpro"}
+{"time":"2025-06-04T16:19:31.216735807+01:00","level":"INFO","msg":"stream: started","id":"p2cvmpro"}
+{"time":"2025-06-04T16:19:31.216762918+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"p2cvmpro"}
+{"time":"2025-06-04T16:19:31.216792404+01:00","level":"INFO","msg":"sender: started","stream_id":"p2cvmpro"}
+{"time":"2025-06-04T16:19:31.21681124+01:00","level":"INFO","msg":"handler: started","stream_id":"p2cvmpro"}
+{"time":"2025-06-04T16:19:31.219730537+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-04T16:20:10.38891294+01:00","level":"INFO","msg":"stream: closing","id":"p2cvmpro"}
+{"time":"2025-06-04T16:20:10.388943538+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-04T16:20:10.389320723+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-04T16:20:10.389376789+01:00","level":"INFO","msg":"handler: closed","stream_id":"p2cvmpro"}
+{"time":"2025-06-04T16:20:10.389385225+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"p2cvmpro"}
+{"time":"2025-06-04T16:20:10.389410974+01:00","level":"INFO","msg":"sender: closed","stream_id":"p2cvmpro"}
+{"time":"2025-06-04T16:20:10.389462281+01:00","level":"INFO","msg":"stream: closed","id":"p2cvmpro"}

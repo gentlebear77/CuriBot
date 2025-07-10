@@ -1,0 +1,64 @@
+/home/gentlebear/miniforge3/envs/curiosity/lib/python3.10/site-packages/torch/cuda/__init__.py:107: UserWarning: CUDA initialization: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero. (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:109.)
+  return torch._C._cuda_getDeviceCount() > 0
+Demo data loaded with 94 length.
+params: {'n_skills': 10, 'mem_size': 1000000, 'interval': 10, 'do_train': True, 'train_from_scratch': True, 'seed': 42, 'batch_size': 256, 'n_hiddens': 256, 'lr': 0.001, 'reward_scale': 0.01, 'MI_scale': 5000, 'alpha': 0.1, 'gamma': 0.99, 'tau': 0.005, 'max_n_episodes': 100, 'action_bounds': [-0.005, 0.005], 'epoch_length': 1, 'train_interval': 1, 'n_states': 9, 'n_actions': 8, 'n_object_states': 6, 'episode_length': 94}
+Training from scratch.
+  0%|                                                                                             | 0/100 [00:00<?, ?it/s]/home/gentlebear/Mres/DIAYN-PyTorch/Brain/agent.py:79: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:245.)
+  action = torch.Tensor([action]).to("cpu")
+MI_reward tensor([[-4.4703e-04],
+        [-2.0489e-03],
+        [-4.1723e-03],
+        [-1.2591e-02],
+        [-1.4042e+00]], grad_fn=<MulBackward0>)
+Episode 1, logq_z: -6.684708118438721, logmi: 0.0020546913146972656
+  6%|█████                                                                                | 6/100 [01:15<19:48, 12.65s/it]
+MI_reward tensor([[-0.0400],
+        [-0.0112],
+        [-0.0215],
+        [-0.0118],
+        [-0.0112]], grad_fn=<MulBackward0>)
+Episode 2, logq_z: -3.0976650714874268, logmi: 0.0013673065695911646
+MI_reward tensor([[-0.0024],
+        [-0.0015],
+        [-0.0200],
+        [-0.0251],
+        [-0.0025]], grad_fn=<MulBackward0>)
+Episode 3, logq_z: -2.6842939853668213, logmi: 0.0013767313212156296
+MI_reward tensor([[-0.0012],
+        [-0.0008],
+        [-0.0172],
+        [-0.0081],
+        [-0.0519]], grad_fn=<MulBackward0>)
+Episode 4, logq_z: -2.233285903930664, logmi: 0.0012950361706316471
+MI_reward tensor([[-0.0006],
+        [-0.0108],
+        [-0.0113],
+        [-0.0062],
+        [-0.0158]], grad_fn=<MulBackward0>)
+Episode 5, logq_z: -2.5254549980163574, logmi: 0.0010394889395684004
+MI_reward tensor([[-2.4587e-02],
+        [-8.9407e-04],
+        [-3.7253e-03],
+        [-3.7253e-05],
+        [-2.8312e-03]], grad_fn=<MulBackward0>)
+Episode 6, logq_z: -2.7944865226745605, logmi: 0.0008552164072170854
+MI_reward tensor([[-0.0013],
+        [-0.0076],
+        [-0.0188],
+        [-0.0351],
+        [-0.0015]], grad_fn=<MulBackward0>)
+Episode 7, logq_z: -2.6870296001434326, logmi: 0.0006508826045319438
+MI_reward tensor([[-0.0070],
+        [-0.0032],
+        [-0.0024],
+        [-0.0019],
+        [-0.0020]], grad_fn=<MulBackward0>)
+Episode 8, logq_z: -3.1941215991973877, logmi: 0.0005030250176787376
+Traceback (most recent call last):
+  File "/home/gentlebear/Mres/DIAYN-PyTorch/main.py", line 191, in <module>
+    next_state, _, done, extra = env.step(action)
+  File "/home/gentlebear/Mres/dinobot/dinobot/env/cube.py", line 130, in step
+    self.simulate_step()
+  File "/home/gentlebear/Mres/dinobot/dinobot/env/base.py", line 390, in simulate_step
+    p.stepSimulation(physicsClientId=self.client)
+KeyboardInterrupt

@@ -1,0 +1,16 @@
+{"time":"2025-07-10T01:49:11.590538463+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/home/gentlebear/Mres/DIAYN-PyTorch/wandb/run-20250710_014911-pd66v6sk/logs/debug-core.log"}
+{"time":"2025-07-10T01:49:11.695087139+01:00","level":"INFO","msg":"created new stream","id":"pd66v6sk"}
+{"time":"2025-07-10T01:49:11.695124852+01:00","level":"INFO","msg":"stream: started","id":"pd66v6sk"}
+{"time":"2025-07-10T01:49:11.695173756+01:00","level":"INFO","msg":"handler: started","stream_id":"pd66v6sk"}
+{"time":"2025-07-10T01:49:11.695175119+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"pd66v6sk"}
+{"time":"2025-07-10T01:49:11.695208824+01:00","level":"INFO","msg":"sender: started","stream_id":"pd66v6sk"}
+{"time":"2025-07-10T01:49:11.941276128+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-10T03:15:10.422659243+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-10T03:15:10.423203581+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-10T03:15:11.384630281+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading checkpoints/joint_policy_100_2025-07-10-02-20-07.pt","runtime_seconds":0.297484066,"progress":"291.1KB/291.1KB"},{"desc":"uploading checkpoints/joint_policy_200_2025-07-10-02-49-42.pt","runtime_seconds":0.297457647,"progress":"291.1KB/291.1KB"},{"desc":"uploading checkpoints/joint_policy_300_2025-07-10-03-15-10.pt","runtime_seconds":0.11768954,"progress":"208.0KB/291.1KB"}],"total_operations":3}}
+{"time":"2025-07-10T03:15:12.21705348+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-10T03:15:13.386403358+01:00","level":"INFO","msg":"stream: closing","id":"pd66v6sk"}
+{"time":"2025-07-10T03:15:13.386426011+01:00","level":"INFO","msg":"handler: closed","stream_id":"pd66v6sk"}
+{"time":"2025-07-10T03:15:13.386436941+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"pd66v6sk"}
+{"time":"2025-07-10T03:15:13.3864521+01:00","level":"INFO","msg":"sender: closed","stream_id":"pd66v6sk"}
+{"time":"2025-07-10T03:15:13.38654188+01:00","level":"INFO","msg":"stream: closed","id":"pd66v6sk"}

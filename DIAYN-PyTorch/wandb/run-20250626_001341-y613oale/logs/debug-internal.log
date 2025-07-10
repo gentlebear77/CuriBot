@@ -1,0 +1,16 @@
+{"time":"2025-06-26T00:13:41.370619127+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/home/gentlebear/Mres/DIAYN-PyTorch/wandb/run-20250626_001341-y613oale/logs/debug-core.log"}
+{"time":"2025-06-26T00:13:42.67997564+01:00","level":"INFO","msg":"created new stream","id":"y613oale"}
+{"time":"2025-06-26T00:13:42.680007401+01:00","level":"INFO","msg":"stream: started","id":"y613oale"}
+{"time":"2025-06-26T00:13:42.680025695+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"y613oale"}
+{"time":"2025-06-26T00:13:42.680055813+01:00","level":"INFO","msg":"sender: started","stream_id":"y613oale"}
+{"time":"2025-06-26T00:13:42.680067405+01:00","level":"INFO","msg":"handler: started","stream_id":"y613oale"}
+{"time":"2025-06-26T00:13:42.86006805+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-26T01:12:52.275713006+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-26T01:12:52.276065495+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-26T01:12:53.276486597+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading checkpoints/joint_policy_300_2025-06-26-01-12-52.pt","runtime_seconds":0.828814169,"progress":"287.1KB/287.1KB"},{"desc":"uploading checkpoints/joint_policy_100_2025-06-26-00-33-18.pt","runtime_seconds":0.406797339,"progress":"287.1KB/287.1KB"},{"desc":"uploading checkpoints/joint_policy_200_2025-06-26-00-53-02.pt","runtime_seconds":0.406796017,"progress":"287.1KB/287.1KB"}],"total_operations":3}}
+{"time":"2025-06-26T01:12:53.930373675+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-26T01:12:55.105745872+01:00","level":"INFO","msg":"stream: closing","id":"y613oale"}
+{"time":"2025-06-26T01:12:55.105774676+01:00","level":"INFO","msg":"handler: closed","stream_id":"y613oale"}
+{"time":"2025-06-26T01:12:55.105789444+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"y613oale"}
+{"time":"2025-06-26T01:12:55.105798311+01:00","level":"INFO","msg":"sender: closed","stream_id":"y613oale"}
+{"time":"2025-06-26T01:12:55.105848877+01:00","level":"INFO","msg":"stream: closed","id":"y613oale"}

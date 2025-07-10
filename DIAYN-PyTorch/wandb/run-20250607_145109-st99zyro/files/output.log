@@ -1,0 +1,609 @@
+/home/gentlebear/miniforge3/envs/curiosity/lib/python3.10/site-packages/torch/cuda/__init__.py:107: UserWarning: CUDA initialization: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero. (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:109.)
+  return torch._C._cuda_getDeviceCount() > 0
+Demo data loaded with 94 length.
+params: {'n_skills': 5, 'mem_size': 1000000, 'interval': 100, 'do_train': True, 'train_from_scratch': True, 'seed': 42, 'batch_size': 256, 'n_hiddens': 256, 'lr': 0.001, 'reward_scale': 0.01, 'MI_scale': 5000, 'alpha': 0.1, 'gamma': 0.99, 'tau': 0.005, 'max_n_episodes': 100, 'action_bounds': [-0.005, 0.005], 'epoch_length': 1, 'train_interval': 1, 'n_states': 9, 'n_actions': 8, 'n_object_states': 6, 'episode_length': 94}
+Training from scratch.
+  0%|                                                                                             | 0/100 [00:00<?, ?it/s]/home/gentlebear/Mres/DIAYN-PyTorch/Brain/agent.py:79: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:245.)
+  action = torch.Tensor([action]).to("cpu")
+tensor([[1.1623e-06],
+        [2.0564e-06],
+        [2.1160e-06],
+        [1.1921e-07],
+        [9.2983e-06]], grad_fn=<SliceBackward0>)
+Episode 1, logq_z: -2.2492799758911133, logmi: 0.004266142845153809
+  6%|█████                                                                                | 6/100 [01:08<17:58, 11.47s/it]
+tensor([[2.0862e-06],
+        [5.0366e-06],
+        [8.6129e-06],
+        [5.9605e-08],
+        [5.0366e-06]], grad_fn=<SliceBackward0>)
+Episode 2, logq_z: -2.0194382667541504, logmi: 0.0033596158027648926
+tensor([[-5.9605e-08],
+        [ 2.0862e-07],
+        [ 1.7285e-06],
+        [ 8.9407e-08],
+        [-0.0000e+00]], grad_fn=<SliceBackward0>)
+Episode 3, logq_z: -1.2249335050582886, logmi: 0.0025926525704562664
+tensor([[1.6987e-06],
+        [2.9802e-08],
+        [5.4240e-06],
+        [2.3246e-06],
+        [2.9802e-08]], grad_fn=<SliceBackward0>)
+Episode 4, logq_z: -1.645574927330017, logmi: 0.001823295489884913
+tensor([[ 2.9802e-07],
+        [-2.9802e-08],
+        [ 1.7881e-07],
+        [ 1.7881e-06],
+        [-0.0000e+00]], grad_fn=<SliceBackward0>)
+Episode 5, logq_z: -2.4377293586730957, logmi: 0.0012020277790725231
+tensor([[5.0664e-07],
+        [-0.0000e+00],
+        [3.2783e-06],
+        [1.5497e-06],
+        [6.2585e-07]], grad_fn=<SliceBackward0>)
+Episode 6, logq_z: -2.7701339721679688, logmi: 0.0007934226887300611
+tensor([[5.9605e-08],
+        [1.0133e-06],
+        [5.9605e-08],
+        [5.3644e-07],
+        [1.0729e-06]], grad_fn=<SliceBackward0>)
+Episode 7, logq_z: -2.4123339653015137, logmi: 0.0005107731558382511
+tensor([[1.6093e-06],
+        [5.9605e-08],
+        [1.4901e-07],
+        [-0.0000e+00],
+        [-0.0000e+00]], grad_fn=<SliceBackward0>)
+Episode 8, logq_z: -2.6533634662628174, logmi: 0.00035276543349027634
+tensor([[7.1526e-07],
+        [-0.0000e+00],
+        [1.0133e-06],
+        [1.1921e-07],
+        [1.3709e-06]], grad_fn=<SliceBackward0>)
+Episode 9, logq_z: -2.132504463195801, logmi: 0.00022925389930605888
+tensor([[5.9605e-08],
+        [2.9802e-07],
+        [1.1921e-07],
+        [2.7418e-06],
+        [2.4438e-06]], grad_fn=<SliceBackward0>)
+Episode 10, logq_z: -1.8392406702041626, logmi: 0.00015446403995156288
+tensor([[-0.0000e+00],
+        [-0.0000e+00],
+        [2.2054e-06],
+        [1.1325e-06],
+        [4.7684e-07]], grad_fn=<SliceBackward0>)
+Episode 11, logq_z: -1.9041937589645386, logmi: 0.00012231036089360714
+tensor([[5.9605e-08],
+        [1.9073e-06],
+        [1.6093e-06],
+        [7.7486e-07],
+        [1.7881e-07]], grad_fn=<SliceBackward0>)
+Episode 12, logq_z: -1.7504408359527588, logmi: 9.343470446765423e-05
+tensor([[5.9605e-08],
+        [2.3842e-07],
+        [1.1921e-07],
+        [-0.0000e+00],
+        [4.1723e-07]], grad_fn=<SliceBackward0>)
+Episode 13, logq_z: -1.4973081350326538, logmi: 7.660291157662868e-05
+tensor([[1.1921e-07],
+        [5.9605e-08],
+        [-0.0000e+00],
+        [5.9605e-08],
+        [1.1921e-07]], grad_fn=<SliceBackward0>)
+Episode 14, logq_z: -1.6572401523590088, logmi: 0.00011730962432920933
+tensor([[-0.0000e+00],
+        [1.7881e-07],
+        [5.9605e-08],
+        [1.1921e-07],
+        [1.7881e-07]], grad_fn=<SliceBackward0>)
+Episode 15, logq_z: -1.6547043323516846, logmi: 0.00021588383242487907
+tensor([[ 7.7486e-07],
+        [ 1.1921e-07],
+        [ 2.3842e-07],
+        [-4.3770e-02],
+        [ 5.9605e-07]], grad_fn=<SliceBackward0>)
+Episode 16, logq_z: -1.8022443056106567, logmi: 0.00017674523405730724
+tensor([[-1.3499e-02],
+        [-0.0000e+00],
+        [ 5.3644e-07],
+        [ 1.7881e-07],
+        [ 2.9802e-07]], grad_fn=<SliceBackward0>)
+Episode 17, logq_z: -1.6858710050582886, logmi: 0.00015068240463733673
+tensor([[ 2.3842e-07],
+        [-5.9605e-08],
+        [ 5.9605e-08],
+        [ 7.1526e-07],
+        [ 5.9605e-08]], grad_fn=<SliceBackward0>)
+Episode 18, logq_z: -1.5954476594924927, logmi: 0.00019875308498740196
+tensor([[-1.0821e-02],
+        [ 5.9605e-08],
+        [ 1.2362e-02],
+        [ 5.9605e-08],
+        [-0.0000e+00]], grad_fn=<SliceBackward0>)
+Episode 19, logq_z: -1.5169697999954224, logmi: 0.00019613932818174362
+tensor([[ 5.9605e-08],
+        [-5.9605e-08],
+        [-0.0000e+00],
+        [ 5.9605e-08],
+        [ 5.9605e-08]], grad_fn=<SliceBackward0>)
+Episode 20, logq_z: -1.5132687091827393, logmi: 0.00018046959303319454
+tensor([[1.1921e-07],
+        [-0.0000e+00],
+        [-0.0000e+00],
+        [2.9802e-07],
+        [5.9605e-08]], grad_fn=<SliceBackward0>)
+Episode 21, logq_z: -1.5565112829208374, logmi: 0.00023735756985843182
+tensor([[-1.2868e-02],
+        [-0.0000e+00],
+        [ 1.0844e-02],
+        [ 3.5763e-07],
+        [ 2.3842e-07]], grad_fn=<SliceBackward0>)
+Episode 22, logq_z: -1.5803838968276978, logmi: 0.00021707266569137573
+tensor([[-4.1439e-02],
+        [ 7.1526e-07],
+        [ 3.5763e-07],
+        [ 1.1921e-07],
+        [ 5.9605e-08]], grad_fn=<SliceBackward0>)
+Episode 23, logq_z: -1.5916690826416016, logmi: 0.0001810244284570217
+tensor([[ 1.3042e-02],
+        [-0.0000e+00],
+        [ 1.1921e-07],
+        [-5.9605e-08],
+        [ 4.7684e-07]], grad_fn=<SliceBackward0>)
+Episode 24, logq_z: -1.612517237663269, logmi: 0.00017212913371622562
+tensor([[1.1921e-07],
+        [2.9802e-07],
+        [-0.0000e+00],
+        [5.9605e-08],
+        [3.5763e-07]], grad_fn=<SliceBackward0>)
+Episode 25, logq_z: -1.7569226026535034, logmi: 0.00034424103796482086
+tensor([[4.3502e-02],
+        [8.9407e-07],
+        [1.1921e-07],
+        [5.9605e-08],
+        [-0.0000e+00]], grad_fn=<SliceBackward0>)
+Episode 26, logq_z: -1.6036914587020874, logmi: 0.0004787582438439131
+tensor([[-5.9605e-08],
+        [-0.0000e+00],
+        [-1.0243e-02],
+        [ 1.1921e-07],
+        [ 4.7684e-07]], grad_fn=<SliceBackward0>)
+Episode 27, logq_z: -1.5640428066253662, logmi: 0.0003152117133140564
+tensor([[ 5.9605e-08],
+        [ 4.7684e-07],
+        [-2.4248e-02],
+        [ 4.7684e-07],
+        [ 2.7761e-02]], grad_fn=<SliceBackward0>)
+Episode 28, logq_z: -1.4962633848190308, logmi: 0.00034462730400264263
+tensor([[-0.0000e+00],
+        [ 1.4648e-02],
+        [ 8.3447e-07],
+        [ 1.1921e-07],
+        [-1.0418e-03]], grad_fn=<SliceBackward0>)
+Episode 29, logq_z: -1.448698878288269, logmi: 0.00020539714023470879
+tensor([[ 5.9605e-08],
+        [ 5.9605e-08],
+        [ 2.3842e-07],
+        [-7.4081e-03],
+        [ 5.9605e-08]], grad_fn=<SliceBackward0>)
+Episode 30, logq_z: -1.4803619384765625, logmi: 0.00029322062619030476
+tensor([[ 4.7684e-07],
+        [ 5.9605e-08],
+        [-3.1233e-05],
+        [ 5.9605e-08],
+        [-5.9605e-08]], grad_fn=<SliceBackward0>)
+Episode 31, logq_z: -1.487796664237976, logmi: 0.00017355382442474365
+tensor([[5.3644e-07],
+        [1.1325e-06],
+        [2.3842e-07],
+        [-0.0000e+00],
+        [2.3842e-07]], grad_fn=<SliceBackward0>)
+Episode 32, logq_z: -1.437445878982544, logmi: 0.00020067347213625908
+tensor([[-2.0317e-01],
+        [ 1.1921e-07],
+        [-5.6198e-03],
+        [ 5.9605e-08],
+        [ 5.9605e-08]], grad_fn=<SliceBackward0>)
+Episode 33, logq_z: -1.556404709815979, logmi: 0.00016449973918497562
+tensor([[ 5.9605e-08],
+        [ 2.9802e-07],
+        [-4.1426e-02],
+        [ 5.9605e-07],
+        [-1.0377e-02]], grad_fn=<SliceBackward0>)
+Episode 34, logq_z: -1.5448780059814453, logmi: 0.00016739661805331707
+tensor([[1.4092e-02],
+        [1.1921e-07],
+        [1.1921e-07],
+        [-0.0000e+00],
+        [5.0936e-02]], grad_fn=<SliceBackward0>)
+Episode 35, logq_z: -1.529340147972107, logmi: 0.00012070359662175179
+tensor([[ 5.9605e-08],
+        [ 1.1921e-07],
+        [-1.8406e-04],
+        [-0.0000e+00],
+        [ 1.7881e-07]], grad_fn=<SliceBackward0>)
+Episode 36, logq_z: -1.5389130115509033, logmi: 9.824358858168125e-05
+tensor([[-0.0000e+00],
+        [ 2.5326e-03],
+        [-2.6174e-03],
+        [ 1.0291e-03],
+        [ 5.9605e-08]], grad_fn=<SliceBackward0>)
+Episode 37, logq_z: -1.4584330320358276, logmi: 9.976187720894814e-05
+tensor([[-0.0000e+00],
+        [ 1.7881e-07],
+        [ 1.6432e-02],
+        [-4.4566e-04],
+        [-0.0000e+00]], grad_fn=<SliceBackward0>)
+Episode 38, logq_z: -1.5300414562225342, logmi: 0.0001722141169011593
+tensor([[ 5.9605e-08],
+        [-3.3213e-02],
+        [ 3.5763e-07],
+        [-5.9605e-08],
+        [-0.0000e+00]], grad_fn=<SliceBackward0>)
+Episode 39, logq_z: -1.461328387260437, logmi: 7.604132406413555e-05
+tensor([[4.3122e-02],
+        [5.9605e-08],
+        [5.9605e-08],
+        [4.1980e-04],
+        [1.3705e-02]], grad_fn=<SliceBackward0>)
+Episode 40, logq_z: -1.419493556022644, logmi: 9.203283116221428e-05
+tensor([[-0.0000e+00],
+        [1.1921e-07],
+        [1.1921e-07],
+        [-0.0000e+00],
+        [1.7881e-07]], grad_fn=<SliceBackward0>)
+Episode 41, logq_z: -1.4587159156799316, logmi: 8.075986988842487e-05
+tensor([[ 1.1921e-07],
+        [ 1.1921e-07],
+        [-0.0000e+00],
+        [ 1.7881e-07],
+        [-1.5306e-04]], grad_fn=<SliceBackward0>)
+Episode 42, logq_z: -1.532983660697937, logmi: 6.838724948465824e-05
+tensor([[ 2.4672e-02],
+        [ 5.9605e-08],
+        [-5.9605e-08],
+        [ 1.7881e-07],
+        [ 1.1921e-07]], grad_fn=<SliceBackward0>)
+Episode 43, logq_z: -1.533510446548462, logmi: 7.135956548154354e-05
+tensor([[1.1921e-07],
+        [3.5763e-07],
+        [-0.0000e+00],
+        [-0.0000e+00],
+        [5.9605e-08]], grad_fn=<SliceBackward0>)
+Episode 44, logq_z: -1.4958043098449707, logmi: 3.68291512131691e-05
+tensor([[-4.1986e-04],
+        [ 1.3780e-02],
+        [ 5.9605e-08],
+        [ 1.1921e-07],
+        [ 2.9802e-07]], grad_fn=<SliceBackward0>)
+Episode 45, logq_z: -1.445104956626892, logmi: 1.941574737429619e-05
+tensor([[ 1.1921e-07],
+        [ 2.3842e-07],
+        [-0.0000e+00],
+        [-2.3437e-03],
+        [ 1.1921e-07]], grad_fn=<SliceBackward0>)
+Episode 46, logq_z: -1.4375437498092651, logmi: 1.4662044122815132e-05
+tensor([[-0.0000e+00],
+        [1.1921e-07],
+        [-0.0000e+00],
+        [4.1723e-07],
+        [1.1921e-07]], grad_fn=<SliceBackward0>)
+Episode 47, logq_z: -1.456003189086914, logmi: 4.436238668859005e-05
+tensor([[ 1.1921e-07],
+        [-3.6423e-03],
+        [ 1.1921e-07],
+        [ 9.7618e-03],
+        [ 1.4329e-04]], grad_fn=<SliceBackward0>)
+Episode 48, logq_z: -1.468397617340088, logmi: 7.494911551475525e-05
+tensor([[-6.1320e-03],
+        [ 1.1921e-07],
+        [-1.6835e-02],
+        [ 5.3644e-07],
+        [ 2.9802e-07]], grad_fn=<SliceBackward0>)
+Episode 49, logq_z: -1.4881510734558105, logmi: 3.9371196180582047e-05
+tensor([[1.7881e-07],
+        [-0.0000e+00],
+        [1.4186e-05],
+        [5.9605e-08],
+        [-0.0000e+00]], grad_fn=<SliceBackward0>)
+Episode 50, logq_z: -1.474965214729309, logmi: 2.858438529074192e-05
+tensor([[-0.0000e+00],
+        [ 5.9605e-08],
+        [ 1.1921e-07],
+        [ 1.1921e-07],
+        [-1.3286e-04]], grad_fn=<SliceBackward0>)
+Episode 51, logq_z: -1.4743050336837769, logmi: 3.5855919122695923e-07
+tensor([[-0.0000e+00],
+        [-0.0000e+00],
+        [ 5.9605e-08],
+        [ 5.9605e-08],
+        [-5.9605e-08]], grad_fn=<SliceBackward0>)
+Episode 52, logq_z: -1.4830663204193115, logmi: 3.106449730694294e-05
+tensor([[ 1.1921e-07],
+        [ 5.9605e-08],
+        [-0.0000e+00],
+        [-1.0937e-02],
+        [ 1.1921e-07]], grad_fn=<SliceBackward0>)
+Episode 53, logq_z: -1.4972490072250366, logmi: 1.8915394321084023e-05
+tensor([[ 6.2704e-05],
+        [-5.1552e-04],
+        [-2.6102e-02],
+        [-0.0000e+00],
+        [ 1.1921e-07]], grad_fn=<SliceBackward0>)
+Episode 54, logq_z: -1.485748052597046, logmi: 4.27227932959795e-05
+tensor([[1.1921e-07],
+        [-0.0000e+00],
+        [-0.0000e+00],
+        [-0.0000e+00],
+        [-0.0000e+00]], grad_fn=<SliceBackward0>)
+Episode 55, logq_z: -1.519795298576355, logmi: 1.8846476450562477e-05
+tensor([[ 9.3472e-04],
+        [ 1.1921e-07],
+        [ 5.9605e-08],
+        [-5.9605e-08],
+        [-1.6792e-03]], grad_fn=<SliceBackward0>)
+Episode 56, logq_z: -1.4768682718276978, logmi: 2.0135194063186646e-05
+tensor([[5.9605e-08],
+        [5.9605e-08],
+        [1.7881e-07],
+        [2.3842e-07],
+        [-0.0000e+00]], grad_fn=<SliceBackward0>)
+Episode 57, logq_z: -1.4986640214920044, logmi: 4.970468580722809e-06
+tensor([[ 5.9605e-08],
+        [-1.4203e-03],
+        [-3.7730e-05],
+        [-1.6625e-02],
+        [ 4.0054e-05]], grad_fn=<SliceBackward0>)
+Episode 58, logq_z: -1.4478579759597778, logmi: 5.470309406518936e-05
+tensor([[-0.0000e+00],
+        [ 1.1921e-07],
+        [ 1.1921e-07],
+        [-2.8995e-03],
+        [-7.4911e-03]], grad_fn=<SliceBackward0>)
+Episode 59, logq_z: -1.4930486679077148, logmi: 2.0035775378346443e-05
+tensor([[2.0188e-03],
+        [-0.0000e+00],
+        [1.1921e-07],
+        [5.9605e-08],
+        [-0.0000e+00]], grad_fn=<SliceBackward0>)
+Episode 60, logq_z: -1.5027085542678833, logmi: 1.627020537853241e-05
+tensor([[-1.0669e-05],
+        [ 8.3955e-02],
+        [-0.0000e+00],
+        [-5.9605e-08],
+        [ 3.5506e-04]], grad_fn=<SliceBackward0>)
+Episode 61, logq_z: -1.5132981538772583, logmi: 2.1164538338780403e-05
+tensor([[4.3404e-04],
+        [-0.0000e+00],
+        [5.9605e-08],
+        [5.9605e-08],
+        [-0.0000e+00]], grad_fn=<SliceBackward0>)
+Episode 62, logq_z: -1.5293539762496948, logmi: 2.3347092792391777e-05
+tensor([[-0.0000e+00],
+        [-1.0610e-05],
+        [ 3.6544e-04],
+        [-0.0000e+00],
+        [ 1.1921e-07]], grad_fn=<SliceBackward0>)
+Episode 63, logq_z: -1.5644609928131104, logmi: 1.0081566870212555e-07
+tensor([[ 5.9605e-08],
+        [-0.0000e+00],
+        [-8.6769e-03],
+        [ 1.1921e-07],
+        [-5.9605e-08]], grad_fn=<SliceBackward0>)
+Episode 64, logq_z: -1.5058984756469727, logmi: 7.5516290962696075e-06
+tensor([[-0.0000],
+        [0.0004],
+        [0.0004],
+        [-0.0000],
+        [-0.0000]], grad_fn=<SliceBackward0>)
+Episode 65, logq_z: -1.4780077934265137, logmi: 2.2569438442587852e-05
+tensor([[ 5.9605e-08],
+        [-5.8344e-03],
+        [-5.9605e-08],
+        [-0.0000e+00],
+        [ 8.5664e-04]], grad_fn=<SliceBackward0>)
+Episode 66, logq_z: -1.5116965770721436, logmi: 1.1146068572998047e-05
+tensor([[-0.0000e+00],
+        [4.2925e-03],
+        [1.7881e-07],
+        [5.9605e-08],
+        [-0.0000e+00]], grad_fn=<SliceBackward0>)
+Episode 67, logq_z: -1.4943599700927734, logmi: 6.278045475482941e-06
+tensor([[1.7244e-03],
+        [5.9605e-08],
+        [1.1921e-07],
+        [5.9605e-08],
+        [5.9605e-08]], grad_fn=<SliceBackward0>)
+Episode 68, logq_z: -1.5153900384902954, logmi: 2.6556430384516716e-05
+tensor([[-0.0000e+00],
+        [ 1.1921e-07],
+        [-0.0000e+00],
+        [-1.5478e-02],
+        [-1.8155e-02]], grad_fn=<SliceBackward0>)
+Episode 69, logq_z: -1.4976649284362793, logmi: 1.7338665202260017e-05
+tensor([[-0.0000e+00],
+        [4.8280e-05],
+        [-0.0000e+00],
+        [-0.0000e+00],
+        [-0.0000e+00]], grad_fn=<SliceBackward0>)
+Episode 70, logq_z: -1.4307546615600586, logmi: 8.57887789607048e-06
+tensor([[-0.0000e+00],
+        [ 5.9605e-08],
+        [-0.0000e+00],
+        [-5.9605e-08],
+        [ 2.4595e-03]], grad_fn=<SliceBackward0>)
+Episode 71, logq_z: -1.505686640739441, logmi: 7.119961082935333e-06
+tensor([[ 5.9003e-04],
+        [ 5.9605e-08],
+        [-0.0000e+00],
+        [ 1.1921e-07],
+        [-5.0201e-03]], grad_fn=<SliceBackward0>)
+Episode 72, logq_z: -1.5110793113708496, logmi: 2.9673101380467415e-05
+tensor([[-0.0000e+00],
+        [5.9605e-08],
+        [-0.0000e+00],
+        [-0.0000e+00],
+        [-0.0000e+00]], grad_fn=<SliceBackward0>)
+Episode 73, logq_z: -1.4634616374969482, logmi: 4.364596679806709e-05
+tensor([[ 7.4068e-03],
+        [-0.0000e+00],
+        [ 5.9605e-08],
+        [-0.0000e+00],
+        [-1.7311e-02]], grad_fn=<SliceBackward0>)
+Episode 74, logq_z: -1.4955110549926758, logmi: 1.5794765204191208e-05
+tensor([[-5.9605e-08],
+        [-5.9605e-08],
+        [ 5.9605e-08],
+        [-0.0000e+00],
+        [ 1.1921e-07]], grad_fn=<SliceBackward0>)
+Episode 75, logq_z: -1.5465056896209717, logmi: 5.563255399465561e-06
+tensor([[ 1.1921e-07],
+        [ 9.1797e-03],
+        [-0.0000e+00],
+        [-2.3316e-03],
+        [-1.2790e-02]], grad_fn=<SliceBackward0>)
+Episode 76, logq_z: -1.5073356628417969, logmi: 6.838701665401459e-06
+tensor([[-1.9021e-02],
+        [-8.7023e-06],
+        [-5.9605e-08],
+        [-0.0000e+00],
+        [-3.0914e-03]], grad_fn=<SliceBackward0>)
+Episode 77, logq_z: -1.4831477403640747, logmi: -1.3347482308745384e-05
+tensor([[-5.9605e-08],
+        [-0.0000e+00],
+        [-0.0000e+00],
+        [-0.0000e+00],
+        [-0.0000e+00]], grad_fn=<SliceBackward0>)
+Episode 78, logq_z: -1.486855149269104, logmi: 4.21423465013504e-08
+tensor([[-0.0000e+00],
+        [5.9605e-08],
+        [5.9605e-08],
+        [-0.0000e+00],
+        [1.1921e-07]], grad_fn=<SliceBackward0>)
+Episode 79, logq_z: -1.5184334516525269, logmi: -1.6132835298776627e-06
+tensor([[-5.9605e-08],
+        [-0.0000e+00],
+        [ 5.9605e-08],
+        [-7.8678e-06],
+        [-1.7333e-02]], grad_fn=<SliceBackward0>)
+Episode 80, logq_z: -1.50551438331604, logmi: -9.957700967788696e-06
+tensor([[5.9605e-08],
+        [-0.0000e+00],
+        [5.7421e-03],
+        [5.9605e-08],
+        [5.9605e-08]], grad_fn=<SliceBackward0>)
+Episode 81, logq_z: -1.5563526153564453, logmi: 5.103647708892822e-06
+tensor([[-0.0000e+00],
+        [5.9605e-08],
+        [-0.0000e+00],
+        [1.7881e-07],
+        [-0.0000e+00]], grad_fn=<SliceBackward0>)
+Episode 82, logq_z: -1.5267101526260376, logmi: -1.2113014236092567e-05
+tensor([[-2.3000e-02],
+        [ 5.9605e-08],
+        [-2.4281e-03],
+        [-0.0000e+00],
+        [-0.0000e+00]], grad_fn=<SliceBackward0>)
+Episode 83, logq_z: -1.5063432455062866, logmi: -8.948612958192825e-06
+tensor([[ 5.9605e-08],
+        [-5.9605e-08],
+        [ 1.1921e-07],
+        [ 5.9605e-08],
+        [ 1.1921e-07]], grad_fn=<SliceBackward0>)
+Episode 84, logq_z: -1.4900542497634888, logmi: -1.1649448424577713e-05
+tensor([[3.0041e-05],
+        [-0.0000e+00],
+        [-0.0000e+00],
+        [5.9605e-08],
+        [3.4165e-04]], grad_fn=<SliceBackward0>)
+Episode 85, logq_z: -1.5371137857437134, logmi: -4.307366907596588e-08
+tensor([[ 5.9605e-08],
+        [-0.0000e+00],
+        [-0.0000e+00],
+        [-0.0000e+00],
+        [-2.7657e-05]], grad_fn=<SliceBackward0>)
+Episode 86, logq_z: -1.5051978826522827, logmi: 3.583962097764015e-06
+tensor([[-0.0000e+00],
+        [-0.0000e+00],
+        [-8.3411e-04],
+        [ 1.1921e-07],
+        [-0.0000e+00]], grad_fn=<SliceBackward0>)
+Episode 87, logq_z: -1.475108027458191, logmi: 6.8193767219781876e-06
+tensor([[ 1.1953e-03],
+        [-4.8439e-02],
+        [-2.1967e-03],
+        [ 5.9605e-08],
+        [-0.0000e+00]], grad_fn=<SliceBackward0>)
+Episode 88, logq_z: -1.468441367149353, logmi: -2.1979212760925293e-07
+tensor([[5.9605e-08],
+        [5.9605e-08],
+        [5.9605e-08],
+        [-0.0000e+00],
+        [-0.0000e+00]], grad_fn=<SliceBackward0>)
+Episode 89, logq_z: -1.470766544342041, logmi: 1.0903459042310715e-06
+tensor([[5.9605e-08],
+        [-0.0000e+00],
+        [5.9605e-08],
+        [1.7881e-07],
+        [5.9605e-08]], grad_fn=<SliceBackward0>)
+Episode 90, logq_z: -1.507082462310791, logmi: -2.1676532924175262e-07
+tensor([[-0.0000e+00],
+        [ 5.9605e-08],
+        [-0.0000e+00],
+        [-8.3649e-03],
+        [-0.0000e+00]], grad_fn=<SliceBackward0>)
+Episode 91, logq_z: -1.4896451234817505, logmi: -3.2199546694755554e-05
+tensor([[-7.4310e-03],
+        [ 1.3881e-02],
+        [ 5.9605e-08],
+        [-0.0000e+00],
+        [-0.0000e+00]], grad_fn=<SliceBackward0>)
+Episode 92, logq_z: -1.5018759965896606, logmi: -2.755899913609028e-05
+tensor([[ 5.9605e-08],
+        [ 5.9605e-08],
+        [ 5.9605e-08],
+        [-0.0000e+00],
+        [-6.5565e-06]], grad_fn=<SliceBackward0>)
+Episode 93, logq_z: -1.487593173980713, logmi: 1.975102350115776e-06
+tensor([[-0.0000e+00],
+        [ 5.9605e-08],
+        [-1.8082e-02],
+        [-5.9605e-08],
+        [ 5.9605e-08]], grad_fn=<SliceBackward0>)
+Episode 94, logq_z: -1.4850391149520874, logmi: -1.146690919995308e-06
+tensor([[-2.2820e-03],
+        [-0.0000e+00],
+        [ 1.1921e-07],
+        [-5.9605e-08],
+        [ 5.9605e-08]], grad_fn=<SliceBackward0>)
+Episode 95, logq_z: -1.5478029251098633, logmi: -8.874805644154549e-06
+tensor([[-0.0000e+00],
+        [-1.8629e-02],
+        [ 5.9605e-08],
+        [-0.0000e+00],
+        [ 1.7411e-02]], grad_fn=<SliceBackward0>)
+Episode 96, logq_z: -1.520388126373291, logmi: 7.723923772573471e-06
+tensor([[-3.7098e-04],
+        [-2.7180e-05],
+        [-5.9605e-08],
+        [ 5.9605e-08],
+        [-0.0000e+00]], grad_fn=<SliceBackward0>)
+Episode 97, logq_z: -1.4881007671356201, logmi: 6.87246210873127e-06
+tensor([[1.1921e-07],
+        [-0.0000e+00],
+        [5.9605e-08],
+        [1.1921e-07],
+        [1.1921e-07]], grad_fn=<SliceBackward0>)
+Episode 98, logq_z: -1.5052244663238525, logmi: -9.376555681228638e-06
+tensor([[-0.0000e+00],
+        [5.9605e-08],
+        [-0.0000e+00],
+        [-0.0000e+00],
+        [-0.0000e+00]], grad_fn=<SliceBackward0>)
+Episode 99, logq_z: -1.538613200187683, logmi: 2.973712980747223e-06
+tensor([[ 0.0072],
+        [-0.0000],
+        [ 0.0001],
+        [-0.0015],
+        [-0.0000]], grad_fn=<SliceBackward0>)
+Policy saved at ./checkpoints/joint_policy_100_2025-06-07-15-10-51.pt
+Episode 100, logq_z: -1.4757862091064453, logmi: -8.746050298213959e-06

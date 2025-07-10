@@ -1,0 +1,15 @@
+{"time":"2025-05-21T16:09:03.592977805+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/home/gentlebear/Mres/DIAYN-PyTorch/wandb/run-20250521_160903-c6mlpr48/logs/debug-core.log"}
+{"time":"2025-05-21T16:09:04.905382522+01:00","level":"INFO","msg":"created new stream","id":"c6mlpr48"}
+{"time":"2025-05-21T16:09:04.905413111+01:00","level":"INFO","msg":"stream: started","id":"c6mlpr48"}
+{"time":"2025-05-21T16:09:04.90542288+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"c6mlpr48"}
+{"time":"2025-05-21T16:09:04.905471212+01:00","level":"INFO","msg":"sender: started","stream_id":"c6mlpr48"}
+{"time":"2025-05-21T16:09:04.905480329+01:00","level":"INFO","msg":"handler: started","stream_id":"c6mlpr48"}
+{"time":"2025-05-21T16:09:05.165387899+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-21T16:30:53.684615726+01:00","level":"INFO","msg":"stream: closing","id":"c6mlpr48"}
+{"time":"2025-05-21T16:30:53.684631867+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-21T16:30:53.685013485+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-21T16:30:55.173749778+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-21T16:30:55.364404594+01:00","level":"INFO","msg":"handler: closed","stream_id":"c6mlpr48"}
+{"time":"2025-05-21T16:30:55.364439961+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"c6mlpr48"}
+{"time":"2025-05-21T16:30:55.364471772+01:00","level":"INFO","msg":"sender: closed","stream_id":"c6mlpr48"}
+{"time":"2025-05-21T16:30:55.364529472+01:00","level":"INFO","msg":"stream: closed","id":"c6mlpr48"}

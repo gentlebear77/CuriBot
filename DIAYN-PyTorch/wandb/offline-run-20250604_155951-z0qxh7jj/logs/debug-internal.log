@@ -1,0 +1,14 @@
+{"time":"2025-06-04T15:59:51.554117666+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/home/gentlebear/Mres/DIAYN-PyTorch/wandb/offline-run-20250604_155951-z0qxh7jj/logs/debug-core.log"}
+{"time":"2025-06-04T15:59:51.657528918+01:00","level":"INFO","msg":"created new stream","id":"z0qxh7jj"}
+{"time":"2025-06-04T15:59:51.657553605+01:00","level":"INFO","msg":"stream: started","id":"z0qxh7jj"}
+{"time":"2025-06-04T15:59:51.657566279+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"z0qxh7jj"}
+{"time":"2025-06-04T15:59:51.657574715+01:00","level":"INFO","msg":"handler: started","stream_id":"z0qxh7jj"}
+{"time":"2025-06-04T15:59:51.657628226+01:00","level":"INFO","msg":"sender: started","stream_id":"z0qxh7jj"}
+{"time":"2025-06-04T15:59:51.660091458+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-04T16:00:12.397952885+01:00","level":"INFO","msg":"stream: closing","id":"z0qxh7jj"}
+{"time":"2025-06-04T16:00:12.397974806+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-04T16:00:12.398304652+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-04T16:00:12.398341873+01:00","level":"INFO","msg":"handler: closed","stream_id":"z0qxh7jj"}
+{"time":"2025-06-04T16:00:12.398348455+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"z0qxh7jj"}
+{"time":"2025-06-04T16:00:12.398400243+01:00","level":"INFO","msg":"sender: closed","stream_id":"z0qxh7jj"}
+{"time":"2025-06-04T16:00:12.39841965+01:00","level":"INFO","msg":"stream: closed","id":"z0qxh7jj"}

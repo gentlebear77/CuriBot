@@ -1,0 +1,39 @@
+Noise:  0.02243916248366118
+Demo data loaded with 94 length.
+params: {'n_skills': 10, 'mem_size': 1000000, 'interval': 10, 'do_train': True, 'train_from_scratch': True, 'seed': 42, 'batch_size': 256, 'n_hiddens': 256, 'lr': 0.001, 'reward_scale': 0.01, 'MI_scale': 1000, 'alpha': 0.1, 'gamma': 0.99, 'tau': 0.005, 'max_n_episodes': 100, 'action_bounds': [-0.005, 0.005], 'epoch_length': 1, 'train_interval': 1, 'n_states': 9, 'n_actions': 8, 'n_object_states': 6, 'episode_length': 94}
+Training from scratch.
+  0%|                                                                                                                            | 0/100 [00:00<?, ?it/s]/home/gentlebear/Mres/DIAYN-PyTorch/Brain/agent.py:79: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:245.)
+Noise:  0.09014286128198323
+  action = torch.Tensor([action]).to("cpu")
+Episode 1, logq_z: -6.338167667388916, logmi: 0.001055389642715454
+ 11%|████████████▋                                                                                                      | 11/100 [02:14<18:09, 12.25s/it]
+Noise:  0.04704322384815443
+Episode 2, logq_z: -5.605981826782227, logmi: 0.001159137231297791
+Noise:  -0.07864878681282313
+Episode 3, logq_z: -3.646023988723755, logmi: 0.0010868576355278492
+Noise:  0.0727036281225914
+Episode 4, logq_z: -2.4351537227630615, logmi: 0.0007976542692631483
+Noise:  0.09829506702900964
+Episode 5, logq_z: -2.4931230545043945, logmi: 0.0006385920569300652
+Noise:  -0.029675462552073123
+Episode 6, logq_z: -3.062871217727661, logmi: 0.0005276045994833112
+Noise:  0.06355706597138902
+Episode 7, logq_z: -3.3802847862243652, logmi: 0.0003991293488070369
+Noise:  0.08143900614116598
+Episode 8, logq_z: -3.1740176677703857, logmi: 0.0003307837760075927
+Noise:  -0.004703323244341459
+Episode 9, logq_z: -3.1343743801116943, logmi: 0.00022919345065020025
+Noise:  0.01808621796453866
+Policy saved at ./checkpoints/joint_policy_10_2025-06-08-16-41-24.pt
+Episode 10, logq_z: -2.7772090435028076, logmi: 0.00026838877238333225
+Noise:  0.0063154793549986266
+Episode 11, logq_z: -3.0130343437194824, logmi: 0.00025625003036111593
+Noise:  0.00025512892514586993
+Traceback (most recent call last):
+  File "/home/gentlebear/Mres/DIAYN-PyTorch/main.py", line 193, in <module>
+    next_state, _, done, extra = env.step(action)
+  File "/home/gentlebear/Mres/dinobot/dinobot/env/cube.py", line 130, in step
+    self.simulate_step()
+  File "/home/gentlebear/Mres/dinobot/dinobot/env/base.py", line 391, in simulate_step
+    p.stepSimulation(physicsClientId=self.client)
+KeyboardInterrupt

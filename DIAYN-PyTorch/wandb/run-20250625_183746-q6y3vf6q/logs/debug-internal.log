@@ -1,0 +1,17 @@
+{"time":"2025-06-25T18:37:46.466411416+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/home/gentlebear/Mres/DIAYN-PyTorch/wandb/run-20250625_183746-q6y3vf6q/logs/debug-core.log"}
+{"time":"2025-06-25T18:37:47.775876632+01:00","level":"INFO","msg":"created new stream","id":"q6y3vf6q"}
+{"time":"2025-06-25T18:37:47.775903044+01:00","level":"INFO","msg":"stream: started","id":"q6y3vf6q"}
+{"time":"2025-06-25T18:37:47.77592175+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"q6y3vf6q"}
+{"time":"2025-06-25T18:37:47.775944024+01:00","level":"INFO","msg":"handler: started","stream_id":"q6y3vf6q"}
+{"time":"2025-06-25T18:37:47.775988881+01:00","level":"INFO","msg":"sender: started","stream_id":"q6y3vf6q"}
+{"time":"2025-06-25T18:37:48.037759842+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-25T19:28:03.675444349+01:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/yuhongze510/DIYAN/q6y3vf6q/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-06-25T19:36:30.991482884+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-25T19:36:30.991861725+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-25T19:36:31.991977779+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.475553175,"progress":"1002B/1002B"},{"desc":"uploading checkpoints/joint_policy_300_2025-06-25-19-36-30.pt","runtime_seconds":0.017472643,"progress":"112.0KB/287.1KB"},{"desc":"uploading checkpoints/joint_policy_100_2025-06-25-18-57-15.pt","runtime_seconds":0.017458316,"progress":"128.0KB/287.1KB"},{"desc":"uploading checkpoints/joint_policy_200_2025-06-25-19-16-54.pt","runtime_seconds":0.017455671,"progress":"144.0KB/287.1KB"}],"total_operations":4}}
+{"time":"2025-06-25T19:36:33.002663984+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-25T19:36:34.196067856+01:00","level":"INFO","msg":"stream: closing","id":"q6y3vf6q"}
+{"time":"2025-06-25T19:36:34.196095809+01:00","level":"INFO","msg":"handler: closed","stream_id":"q6y3vf6q"}
+{"time":"2025-06-25T19:36:34.196104035+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"q6y3vf6q"}
+{"time":"2025-06-25T19:36:34.196114585+01:00","level":"INFO","msg":"sender: closed","stream_id":"q6y3vf6q"}
+{"time":"2025-06-25T19:36:34.196196912+01:00","level":"INFO","msg":"stream: closed","id":"q6y3vf6q"}

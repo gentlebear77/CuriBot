@@ -1,0 +1,19 @@
+{"time":"2025-05-30T18:29:04.627335383+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/home/gentlebear/Mres/DIAYN-PyTorch/wandb/run-20250530_182904-1eqk8vdq/logs/debug-core.log"}
+{"time":"2025-05-30T18:29:05.937233352+01:00","level":"INFO","msg":"created new stream","id":"1eqk8vdq"}
+{"time":"2025-05-30T18:29:05.937274079+01:00","level":"INFO","msg":"stream: started","id":"1eqk8vdq"}
+{"time":"2025-05-30T18:29:05.937302714+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"1eqk8vdq"}
+{"time":"2025-05-30T18:29:05.937313675+01:00","level":"INFO","msg":"handler: started","stream_id":"1eqk8vdq"}
+{"time":"2025-05-30T18:29:05.937373588+01:00","level":"INFO","msg":"sender: started","stream_id":"1eqk8vdq"}
+{"time":"2025-05-30T18:29:06.219752756+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-30T19:00:07.676630713+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-05-30T19:01:55.16282306+01:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/yuhongze510/DIYAN/1eqk8vdq/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-05-30T19:02:23.107523995+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-05-30T19:11:01.052958679+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-30T19:11:01.053659127+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-30T19:11:02.01416555+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading checkpoints/joint_policy_100_2025-05-30-18-50-01.pt","runtime_seconds":0.090750706,"progress":"306.0KB/306.0KB"},{"desc":"uploading checkpoints/joint_policy_200_2025-05-30-19-11-01.pt","runtime_seconds":0.090728033,"progress":"306.0KB/306.0KB"}],"total_operations":2}}
+{"time":"2025-05-30T19:11:02.586896795+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-30T19:11:03.755772596+01:00","level":"INFO","msg":"stream: closing","id":"1eqk8vdq"}
+{"time":"2025-05-30T19:11:03.755789909+01:00","level":"INFO","msg":"handler: closed","stream_id":"1eqk8vdq"}
+{"time":"2025-05-30T19:11:03.755805569+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"1eqk8vdq"}
+{"time":"2025-05-30T19:11:03.755859712+01:00","level":"INFO","msg":"sender: closed","stream_id":"1eqk8vdq"}
+{"time":"2025-05-30T19:11:03.755865974+01:00","level":"INFO","msg":"stream: closed","id":"1eqk8vdq"}

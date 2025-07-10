@@ -1,0 +1,217 @@
+Noise:  0.0
+Demo data loaded with 94 length.
+params: {'n_skills': 10, 'mem_size': 1000000, 'interval': 10, 'do_train': True, 'train_from_scratch': True, 'seed': 42, 'batch_size': 256, 'n_hiddens': 256, 'lr': 0.001, 'reward_scale': 0.01, 'MI_scale': 1000, 'alpha': 0.1, 'gamma': 0.99, 'tau': 0.005, 'max_n_episodes': 100, 'action_bounds': [-0.005, 0.005], 'epoch_length': 1, 'train_interval': 1, 'n_states': 9, 'n_actions': 8, 'n_object_states': 6, 'episode_length': 94}
+Training from scratch.
+  0%|                                                                                                                            | 0/100 [00:00<?, ?it/s]/home/gentlebear/Mres/DIAYN-PyTorch/Brain/agent.py:79: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:245.)
+Noise:  0.0
+  action = torch.Tensor([action]).to("cpu")
+Episode 1, logq_z: -6.338167667388916, logmi: 0.0010946542024612427
+ 16%|██████████████████▍                                                                                                | 16/100 [02:12<11:36,  8.29s/it]
+Noise:  0.0
+Episode 2, logq_z: -5.605981826782227, logmi: 0.0011272300034761429
+Noise:  0.0
+Episode 3, logq_z: -3.646024227142334, logmi: 0.0009594349539838731
+Noise:  0.0
+Episode 4, logq_z: -2.4349589347839355, logmi: 0.0007365179480984807
+Noise:  0.0
+Episode 5, logq_z: -2.492020845413208, logmi: 0.0006034061079844832
+Noise:  0.0
+Episode 6, logq_z: -3.060347080230713, logmi: 0.0005075688241049647
+Noise:  0.0
+Episode 7, logq_z: -3.379509687423706, logmi: 0.00040189604624174535
+Noise:  0.0
+Episode 8, logq_z: -3.1730072498321533, logmi: 0.0003537320008035749
+Noise:  0.0
+Episode 9, logq_z: -3.134688138961792, logmi: 0.00027672378928400576
+Noise:  0.0
+Policy saved at ./checkpoints/joint_policy_10_2025-06-08-19-15-49.pt
+Episode 10, logq_z: -2.777780771255493, logmi: 0.0003182356886100024
+Noise:  0.0
+Episode 11, logq_z: -3.012407064437866, logmi: 0.0002825477276928723
+Noise:  0.0
+Episode 12, logq_z: -2.964500665664673, logmi: 0.0004000448971055448
+Noise:  0.0
+Episode 13, logq_z: -2.546543836593628, logmi: 0.0003520969767123461
+Noise:  0.0
+Episode 14, logq_z: -2.573521614074707, logmi: 0.00030873488867655396
+Noise:  0.0
+Episode 15, logq_z: -2.349208116531372, logmi: 0.0003041704767383635
+Noise:  0.0
+Episode 16, logq_z: -2.7079811096191406, logmi: 0.0002628896036185324
+Noise:  0.0
+Episode 17, logq_z: -2.7431588172912598, logmi: 0.00021466496400535107
+Noise:  0.0
+Episode 18, logq_z: -3.2942917346954346, logmi: 0.0001882115611806512
+Noise:  0.0
+Episode 19, logq_z: -3.192355155944824, logmi: 0.00014965410809963942
+Noise:  0.0
+Policy saved at ./checkpoints/joint_policy_20_2025-06-08-19-17-11.pt
+Episode 20, logq_z: -2.8702239990234375, logmi: 0.00013971864245831966
+Noise:  0.0
+Episode 21, logq_z: -2.9876062870025635, logmi: 0.00011470972094684839
+Noise:  0.0
+Episode 22, logq_z: -3.219729423522949, logmi: 0.00011701893527060747
+Noise:  0.0
+Episode 23, logq_z: -3.1957743167877197, logmi: 0.00010452419519424438
+Noise:  0.0
+Episode 24, logq_z: -2.8673651218414307, logmi: 9.854382369667292e-05
+Noise:  0.0
+Episode 25, logq_z: -2.5603115558624268, logmi: 9.633798617869616e-05
+Noise:  0.0
+Episode 26, logq_z: -2.463250160217285, logmi: 9.251351002603769e-05
+Noise:  0.0
+Episode 27, logq_z: -2.485042095184326, logmi: 8.63182358443737e-05
+Noise:  0.0
+Episode 28, logq_z: -2.4034063816070557, logmi: 7.726112380623817e-05
+Noise:  0.0
+Episode 29, logq_z: -2.263296365737915, logmi: 6.652483716607094e-05
+Noise:  0.0
+Policy saved at ./checkpoints/joint_policy_30_2025-06-08-19-18-36.pt
+Episode 30, logq_z: -2.296304225921631, logmi: 5.9286365285515785e-05
+Noise:  0.0
+Episode 31, logq_z: -2.2557551860809326, logmi: 0.00013366946950554848
+Noise:  0.0
+Episode 32, logq_z: -2.2618701457977295, logmi: 7.387297227978706e-05
+Noise:  0.0
+Episode 33, logq_z: -2.3050575256347656, logmi: 9.154854342341423e-05
+Noise:  0.0
+Episode 34, logq_z: -2.270012140274048, logmi: 0.00011202809400856495
+Noise:  0.0
+Episode 35, logq_z: -2.3067569732666016, logmi: 4.3474603444337845e-05
+Noise:  0.0
+Episode 36, logq_z: -2.2584903240203857, logmi: 5.729799158871174e-05
+Noise:  0.0
+Episode 37, logq_z: -2.2752270698547363, logmi: 8.242996409535408e-05
+Noise:  0.0
+Episode 38, logq_z: -2.190835952758789, logmi: 5.8592529967427254e-05
+Noise:  0.0
+Episode 39, logq_z: -2.1693549156188965, logmi: 4.771631211042404e-05
+Noise:  0.0
+Policy saved at ./checkpoints/joint_policy_40_2025-06-08-19-20-03.pt
+Episode 40, logq_z: -2.0879900455474854, logmi: 5.5555254220962524e-05
+Noise:  0.0
+Episode 41, logq_z: -2.130736827850342, logmi: 3.996351733803749e-05
+Noise:  0.0
+Episode 42, logq_z: -2.069408893585205, logmi: 4.5179855078458786e-05
+Noise:  0.0
+Episode 43, logq_z: -2.16365385055542, logmi: 2.7478206902742386e-05
+Noise:  0.0
+Episode 44, logq_z: -2.179553508758545, logmi: 3.136345185339451e-05
+Noise:  0.0
+Episode 45, logq_z: -2.119697093963623, logmi: 2.4606473743915558e-05
+Noise:  0.0
+Episode 46, logq_z: -2.2611887454986572, logmi: 2.2603198885917664e-05
+Noise:  0.0
+Episode 47, logq_z: -2.198775053024292, logmi: 2.924865111708641e-05
+Noise:  0.0
+Episode 48, logq_z: -2.254323959350586, logmi: 4.006503149867058e-05
+Noise:  0.0
+Episode 49, logq_z: -2.1074299812316895, logmi: 3.708666190505028e-05
+Noise:  0.0
+Policy saved at ./checkpoints/joint_policy_50_2025-06-08-19-21-30.pt
+Episode 50, logq_z: -2.172736406326294, logmi: 3.628968261182308e-05
+Noise:  0.0
+Episode 51, logq_z: -2.2119638919830322, logmi: 3.718468360602856e-05
+Noise:  0.0
+Episode 52, logq_z: -2.125174045562744, logmi: 2.870103344321251e-05
+Noise:  0.0
+Episode 53, logq_z: -2.177537441253662, logmi: 2.6816269382834435e-05
+Noise:  0.0
+Episode 54, logq_z: -2.1093063354492188, logmi: 3.0278461053967476e-05
+Noise:  0.0
+Episode 55, logq_z: -2.184990167617798, logmi: 3.2184645533561707e-05
+Noise:  0.0
+Episode 56, logq_z: -2.1478729248046875, logmi: 2.0574545487761497e-05
+Noise:  0.0
+Episode 57, logq_z: -2.1633758544921875, logmi: 9.913626126945019e-05
+Noise:  0.0
+Episode 58, logq_z: -2.12919282913208, logmi: 5.031866021454334e-05
+Noise:  0.0
+Episode 59, logq_z: -2.1803791522979736, logmi: 6.416020914912224e-05
+Noise:  0.0
+Policy saved at ./checkpoints/joint_policy_60_2025-06-08-19-22-57.pt
+Episode 60, logq_z: -2.1154589653015137, logmi: 7.419520989060402e-05
+Noise:  0.0
+Episode 61, logq_z: -2.216735363006592, logmi: 8.675944991409779e-05
+Noise:  0.0
+Episode 62, logq_z: -2.1621196269989014, logmi: 7.783668115735054e-05
+Noise:  0.0
+Episode 63, logq_z: -2.2843618392944336, logmi: 6.448803469538689e-05
+Noise:  0.0
+Episode 64, logq_z: -2.171997547149658, logmi: 3.681425005197525e-05
+Noise:  0.0
+Episode 65, logq_z: -2.1835670471191406, logmi: 6.895093247294426e-05
+Noise:  0.0
+Episode 66, logq_z: -2.1781530380249023, logmi: 3.079627640545368e-05
+Noise:  0.0
+Episode 67, logq_z: -2.175706624984741, logmi: 3.322656266391277e-05
+Noise:  0.0
+Episode 68, logq_z: -2.1316885948181152, logmi: 4.273350350558758e-05
+Noise:  0.0
+Episode 69, logq_z: -2.121013879776001, logmi: 1.878594048321247e-05
+Noise:  0.0
+Policy saved at ./checkpoints/joint_policy_70_2025-06-08-19-24-23.pt
+Episode 70, logq_z: -2.1403310298919678, logmi: 3.4499913454055786e-05
+Noise:  0.0
+Episode 71, logq_z: -2.1714932918548584, logmi: 3.5721343010663986e-05
+Noise:  0.0
+Episode 72, logq_z: -2.167996644973755, logmi: 4.36615664511919e-05
+Noise:  0.0
+Episode 73, logq_z: -2.226815938949585, logmi: 2.0932871848344803e-05
+Noise:  0.0
+Episode 74, logq_z: -2.141610860824585, logmi: 3.922171890735626e-05
+Noise:  0.0
+Episode 75, logq_z: -2.1806204319000244, logmi: 2.482929266989231e-05
+Noise:  0.0
+Episode 76, logq_z: -2.1369452476501465, logmi: 1.386832445859909e-05
+Noise:  0.0
+Episode 77, logq_z: -2.1581532955169678, logmi: 2.209329977631569e-05
+Noise:  0.0
+Episode 78, logq_z: -2.168328285217285, logmi: 2.7046306058764458e-05
+Noise:  0.0
+Episode 79, logq_z: -2.10431170463562, logmi: 1.444225199520588e-05
+Noise:  0.0
+Policy saved at ./checkpoints/joint_policy_80_2025-06-08-19-25-50.pt
+Episode 80, logq_z: -2.1637282371520996, logmi: 1.5995698049664497e-05
+Noise:  0.0
+Episode 81, logq_z: -2.2319650650024414, logmi: 2.2918451577425003e-05
+Noise:  0.0
+Episode 82, logq_z: -2.203791856765747, logmi: 1.7514219507575035e-05
+Noise:  0.0
+Episode 83, logq_z: -2.192652463912964, logmi: 1.314142718911171e-05
+Noise:  0.0
+Episode 84, logq_z: -2.1836252212524414, logmi: 1.5713972970843315e-05
+Noise:  0.0
+Episode 85, logq_z: -2.167123317718506, logmi: 8.892267942428589e-06
+Noise:  0.0
+Episode 86, logq_z: -2.2078731060028076, logmi: 6.389804184436798e-06
+Noise:  0.0
+Episode 87, logq_z: -2.1623289585113525, logmi: 1.3378448784351349e-05
+Noise:  0.0
+Episode 88, logq_z: -2.183339834213257, logmi: 2.4707522243261337e-05
+Noise:  0.0
+Episode 89, logq_z: -2.1743013858795166, logmi: 9.085284546017647e-06
+Noise:  0.0
+Policy saved at ./checkpoints/joint_policy_90_2025-06-08-19-27-14.pt
+Episode 90, logq_z: -2.1611287593841553, logmi: 5.325069651007652e-06
+Noise:  0.0
+Episode 91, logq_z: -2.165966510772705, logmi: 1.8259510397911072e-05
+Noise:  0.0
+Episode 92, logq_z: -2.1478383541107178, logmi: 6.990507245063782e-06
+Noise:  0.0
+Episode 93, logq_z: -2.1952195167541504, logmi: 1.629488542675972e-05
+Noise:  0.0
+Episode 94, logq_z: -2.149019718170166, logmi: 7.3944684118032455e-06
+Noise:  0.0
+Episode 95, logq_z: -2.176835536956787, logmi: 5.674082785844803e-06
+Noise:  0.0
+Episode 96, logq_z: -2.1514899730682373, logmi: 1.2344447895884514e-05
+Noise:  0.0
+Episode 97, logq_z: -2.160407304763794, logmi: 5.804235115647316e-06
+Noise:  0.0
+Episode 98, logq_z: -2.171741008758545, logmi: 1.8961727619171143e-06
+Noise:  0.0
+Episode 99, logq_z: -2.2006235122680664, logmi: 6.244983524084091e-06
+Noise:  0.0
+Policy saved at ./checkpoints/joint_policy_100_2025-06-08-19-28-39.pt
+Episode 100, logq_z: -2.140453338623047, logmi: 1.3419659808278084e-05

@@ -1,0 +1,25 @@
+/home/gentlebear/miniforge3/envs/curiosity/lib/python3.10/site-packages/torch/cuda/__init__.py:107: UserWarning: CUDA initialization: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero. (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:109.)
+  return torch._C._cuda_getDeviceCount() > 0
+Demo data loaded with 94 length.
+params: {'n_skills': 5, 'mem_size': 1000000, 'interval': 100, 'do_train': True, 'train_from_scratch': True, 'seed': 42, 'batch_size': 256, 'n_hiddens': 256, 'lr': 0.001, 'reward_scale': 0.01, 'MI_scale': 1, 'alpha': 0.1, 'gamma': 0.99, 'tau': 0.005, 'max_n_episodes': 100, 'action_bounds': [-0.005, 0.005], 'epoch_length': 1, 'train_interval': 1, 'n_states': 9, 'n_actions': 8, 'n_object_states': 6, 'episode_length': 94}
+Training from scratch.
+  0%|                                                                                             | 0/100 [00:00<?, ?it/s]/home/gentlebear/Mres/DIAYN-PyTorch/Brain/agent.py:79: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:245.)
+  action = torch.Tensor([action]).to("cpu")
+Episode 1, logq_z: -2.2492799758911133, logmi: 0.004266142845153809
+  9%|███████▋                                                                             | 9/100 [01:52<18:56, 12.49s/it]
+Episode 2, logq_z: -2.0194382667541504, logmi: 0.0033596158027648926
+Episode 3, logq_z: -1.2249335050582886, logmi: 0.0025926525704562664
+Episode 4, logq_z: -1.645574927330017, logmi: 0.001823295489884913
+Episode 5, logq_z: -2.4377293586730957, logmi: 0.001202010316774249
+Episode 6, logq_z: -2.7701339721679688, logmi: 0.0007934264140203595
+Episode 7, logq_z: -2.4123339653015137, logmi: 0.0005108318291604519
+Episode 8, logq_z: -2.6533634662628174, logmi: 0.00035277591086924076
+Episode 9, logq_z: -2.1325042247772217, logmi: 0.00022922875359654427
+Traceback (most recent call last):
+  File "/home/gentlebear/Mres/DIAYN-PyTorch/main.py", line 193, in <module>
+    next_state, _, done, extra = env.step(action)
+  File "/home/gentlebear/Mres/dinobot/dinobot/env/cube.py", line 130, in step
+    self.simulate_step()
+  File "/home/gentlebear/Mres/dinobot/dinobot/env/base.py", line 390, in simulate_step
+    p.stepSimulation(physicsClientId=self.client)
+KeyboardInterrupt

@@ -1,0 +1,63 @@
+_wandb:
+    value:
+        cli_version: 0.19.6
+        m: []
+        python_version: 3.10.0
+        t:
+            "1":
+                - 1
+                - 41
+                - 55
+            "2":
+                - 1
+                - 41
+                - 55
+            "3":
+                - 2
+                - 3
+                - 23
+                - 55
+            "4": 3.10.0
+            "5": 0.19.6
+            "8":
+                - 5
+            "12": 0.19.6
+            "13": linux-x86_64
+MI_scale:
+    value: 1000
+action_bounds:
+    value:
+        - -0.01
+        - 0.01
+alpha:
+    value: 0.1
+batch_size:
+    value: 256
+do_train:
+    value: true
+epoch_length:
+    value: 1
+gamma:
+    value: 0.99
+interval:
+    value: 100
+lr:
+    value: 0.001
+max_n_episodes:
+    value: 2000
+mem_size:
+    value: 1000000
+n_hiddens:
+    value: 256
+n_skills:
+    value: 10
+reward_scale:
+    value: 0.01
+seed:
+    value: 42
+tau:
+    value: 0.005
+train_from_scratch:
+    value: true
+train_interval:
+    value: 1

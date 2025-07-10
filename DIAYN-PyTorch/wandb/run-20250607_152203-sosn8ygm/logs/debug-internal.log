@@ -1,0 +1,16 @@
+{"time":"2025-06-07T15:22:03.550228139+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/home/gentlebear/Mres/DIAYN-PyTorch/wandb/run-20250607_152203-sosn8ygm/logs/debug-core.log"}
+{"time":"2025-06-07T15:22:04.861711399+01:00","level":"INFO","msg":"created new stream","id":"sosn8ygm"}
+{"time":"2025-06-07T15:22:04.86174344+01:00","level":"INFO","msg":"stream: started","id":"sosn8ygm"}
+{"time":"2025-06-07T15:22:04.861770262+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"sosn8ygm"}
+{"time":"2025-06-07T15:22:04.861792024+01:00","level":"INFO","msg":"handler: started","stream_id":"sosn8ygm"}
+{"time":"2025-06-07T15:22:04.861811241+01:00","level":"INFO","msg":"sender: started","stream_id":"sosn8ygm"}
+{"time":"2025-06-07T15:22:05.125012055+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-07T15:42:59.72859011+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-07T15:42:59.728916912+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-07T15:43:00.729897804+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading checkpoints/joint_policy_100_2025-06-07-15-42-59.pt","runtime_seconds":0.658650666,"progress":"291.0KB/291.0KB"}],"total_operations":1}}
+{"time":"2025-06-07T15:43:01.419329767+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-07T15:43:02.585423797+01:00","level":"INFO","msg":"stream: closing","id":"sosn8ygm"}
+{"time":"2025-06-07T15:43:02.585469423+01:00","level":"INFO","msg":"handler: closed","stream_id":"sosn8ygm"}
+{"time":"2025-06-07T15:43:02.585490232+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"sosn8ygm"}
+{"time":"2025-06-07T15:43:02.585504849+01:00","level":"INFO","msg":"sender: closed","stream_id":"sosn8ygm"}
+{"time":"2025-06-07T15:43:02.585586923+01:00","level":"INFO","msg":"stream: closed","id":"sosn8ygm"}
